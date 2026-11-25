@@ -652,6 +652,7 @@
                 <option value="薪資">💼 薪資</option>
                 <option value="保險">🛡️ 保險</option>
                 <option value="信用卡回饋金">🎁 信用卡回饋金</option>
+                <option value="其他收入">✨ 其他收入</option>
               </optgroup>
             </select>
           </div>
@@ -911,12 +912,12 @@
       { id: '家用', label: '家用', emoji: '🏠', barColor: 'bg-[#B59B7E]', stickerBg: 'bg-[#F7F3EE] text-[#755D43] border-[#E3D8CA]', activeBg: 'bg-[#A1876A] text-white border-[#A1876A]' },
       { id: '其他', label: '其他', emoji: '✨', barColor: 'bg-[#9E958C]', stickerBg: 'bg-[#F5EFE6] text-[#6E645B] border-[#E6DDD0]', activeBg: 'bg-[#8C7D70] text-white border-[#8C7D70]' }
     ];
-
-    // 三大收入分類設定：薪資、保險、信用卡回饋金
+    // 收入分類設定：薪資、保險、信用卡回饋金、其他收入
     const INCOME_CATEGORIES = [
       { id: '薪資', label: '薪資', emoji: '💼', barColor: 'bg-[#8FA88B]', stickerBg: 'bg-[#F3F6F2] text-[#4A6147] border-[#D4DFD1]', activeBg: 'bg-[#3B7A57] text-white border-[#3B7A57]' },
       { id: '保險', label: '保險', emoji: '🛡️', barColor: 'bg-[#829BB0]', stickerBg: 'bg-[#F2F5F8] text-[#526B80] border-[#D6E0E8]', activeBg: 'bg-[#526B80] text-white border-[#526B80]' },
-      { id: '信用卡回饋金', label: '回饋金', emoji: '🎁', barColor: 'bg-[#DFB768]', stickerBg: 'bg-[#FBF7EE] text-[#8A6B2E] border-[#EBE0C9]', activeBg: 'bg-[#DFB768] text-[#3E362E] border-[#DFB768]' }
+      { id: '信用卡回饋金', label: '回饋金', emoji: '🎁', barColor: 'bg-[#DFB768]', stickerBg: 'bg-[#FBF7EE] text-[#8A6B2E] border-[#EBE0C9]', activeBg: 'bg-[#DFB768] text-[#3E362E] border-[#DFB768]' },
+      { id: '其他收入', label: '其他收入', emoji: '✨', barColor: 'bg-[#B39EB5]', stickerBg: 'bg-[#F6F2F7] text-[#6D5870] border-[#E2D6E4]', activeBg: 'bg-[#9E86A1] text-white border-[#9E86A1]' }
     ];
 
     // 支出支付方式
@@ -950,7 +951,8 @@
       '家用': ['水電瓦斯費', '網路/管理費', '家庭日用品採買'],
       '其他': ['電信月租費', '紅包禮金'],
       '薪資': ['本月薪資入帳', '績效獎金', '年終獎金'],
-      '信用卡回饋金': ['玉山刷卡現金回饋', '台新刷卡回饋金', '活動加碼回饋']
+      '信用卡回饋金': ['玉山刷卡現金回饋', '台新刷卡回饋金', '活動加碼回饋'],
+      '其他收入': ['發票中獎', '二手拍賣', '紅包/禮金', '股息/利息']
     };
 
     let records = [];
