@@ -6,12 +6,11 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="溫蒂帳本">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="theme-color" content="#FAF6F0">
+  <link id="pwaManifestLink" rel="manifest">
+  <link id="appleTouchIconLink" rel="apple-touch-icon">
   <title>溫蒂帳本｜日系手帳記帳</title>
-  <!-- 靜態內嵌日系貝雷帽黑貴賓桌面主畫面圖示 (PWA / iOS Safari / Android Chrome) -->
-  <link id="appleTouchIconLink" rel="apple-touch-icon" sizes="180x180" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'%3E%3Crect width='180' height='180' rx='40' fill='%23FAF6F0'/%3E%3Ccircle cx='90' cy='98' r='58' fill='%23FFFDF9' stroke='%23E6DDD0' stroke-width='4'/%3E%3Ccircle cx='46' cy='96' r='20' fill='%232E2824'/%3E%3Ccircle cx='44' cy='112' r='16' fill='%232E2824'/%3E%3Ccircle cx='134' cy='96' r='20' fill='%232E2824'/%3E%3Ccircle cx='136' cy='112' r='16' fill='%232E2824'/%3E%3Ccircle cx='90' cy='98' r='40' fill='%23332C28'/%3E%3Ccircle cx='66' cy='68' r='16' fill='%23332C28'/%3E%3Ccircle cx='90' cy='62' r='18' fill='%23332C28'/%3E%3Ccircle cx='114' cy='68' r='16' fill='%23332C28'/%3E%3Cellipse cx='96' cy='48' rx='30' ry='14' transform='rotate(-12 96 48)' fill='%23C8A98E' stroke='%233E362E' stroke-width='3'/%3E%3Ccircle cx='103' cy='34' r='4' fill='%238FA88B'/%3E%3Ccircle cx='75' cy='94' r='5.5' fill='%23FFFDF9'/%3E%3Ccircle cx='76' cy='94' r='3.5' fill='%231A1614'/%3E%3Ccircle cx='105' cy='94' r='5.5' fill='%23FFFDF9'/%3E%3Ccircle cx='104' cy='94' r='3.5' fill='%231A1614'/%3E%3Cellipse cx='90' cy='107' rx='14' ry='11' fill='%23473E39'/%3E%3Cellipse cx='90' cy='103' rx='6' ry='4.5' fill='%231A1614'/%3E%3Cpath d='M84 111 Q90 116 96 111' stroke='%23FFFDF9' stroke-width='2.5' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='66' cy='104' r='5' fill='%23D98A6C' opacity='0.6'/%3E%3Ccircle cx='114' cy='104' r='5' fill='%23D98A6C' opacity='0.6'/%3E%3Crect x='110' y='124' width='46' height='26' rx='10' fill='%23DFB768' stroke='%23FFFDF9' stroke-width='3'/%3E%3Ctext x='133' y='142' text-anchor='middle' font-family='monospace' font-weight='bold' font-size='16' fill='%233E362E'%3E%24%24%3C/text%3E%3C/svg%3E">
-  <link id="faviconLink" rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'%3E%3Crect width='180' height='180' rx='40' fill='%23FAF6F0'/%3E%3Ccircle cx='90' cy='98' r='58' fill='%23FFFDF9' stroke='%23E6DDD0' stroke-width='4'/%3E%3Ccircle cx='46' cy='96' r='20' fill='%232E2824'/%3E%3Ccircle cx='44' cy='112' r='16' fill='%232E2824'/%3E%3Ccircle cx='134' cy='96' r='20' fill='%232E2824'/%3E%3Ccircle cx='136' cy='112' r='16' fill='%232E2824'/%3E%3Ccircle cx='90' cy='98' r='40' fill='%23332C28'/%3E%3Ccircle cx='66' cy='68' r='16' fill='%23332C28'/%3E%3Ccircle cx='90' cy='62' r='18' fill='%23332C28'/%3E%3Ccircle cx='114' cy='68' r='16' fill='%23332C28'/%3E%3Cellipse cx='96' cy='48' rx='30' ry='14' transform='rotate(-12 96 48)' fill='%23C8A98E' stroke='%233E362E' stroke-width='3'/%3E%3Ccircle cx='103' cy='34' r='4' fill='%238FA88B'/%3E%3Ccircle cx='75' cy='94' r='5.5' fill='%23FFFDF9'/%3E%3Ccircle cx='76' cy='94' r='3.5' fill='%231A1614'/%3E%3Ccircle cx='105' cy='94' r='5.5' fill='%23FFFDF9'/%3E%3Ccircle cx='104' cy='94' r='3.5' fill='%231A1614'/%3E%3Cellipse cx='90' cy='107' rx='14' ry='11' fill='%23473E39'/%3E%3Cellipse cx='90' cy='103' rx='6' ry='4.5' fill='%231A1614'/%3E%3Cpath d='M84 111 Q90 116 96 111' stroke='%23FFFDF9' stroke-width='2.5' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='66' cy='104' r='5' fill='%23D98A6C' opacity='0.6'/%3E%3Ccircle cx='114' cy='104' r='5' fill='%23D98A6C' opacity='0.6'/%3E%3Crect x='110' y='124' width='46' height='26' rx='10' fill='%23DFB768' stroke='%23FFFDF9' stroke-width='3'/%3E%3Ctext x='133' y='142' text-anchor='middle' font-family='monospace' font-weight='bold' font-size='16' fill='%233E362E'%3E%24%24%3C/text%3E%3C/svg%3E">
-  <link id="pwaManifestLink" rel="manifest" href="">
   <!-- 載入 Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- 載入日系圓潤字體 Zen Maru Gothic、思源黑體與復古打字機等寬數字 Courier Prime -->
@@ -46,13 +45,11 @@
     }
   </script>
   <style>
-    /* 防止手機端任何表單元件超出螢幕寬度導致水平捲動 */
     html, body {
       max-width: 100%;
       overflow-x: hidden;
     }
 
-    /* 修正 iOS Safari 原生日期選擇框預設寬度過大撐破卡片的問題 */
     input[type="date"] {
       -webkit-appearance: none;
       appearance: none;
@@ -61,7 +58,7 @@
       box-sizing: border-box;
     }
 
-    /* 5mm 日系手帳方眼格紋奶油紙張背景 */
+    /* 日系方眼和紙底紋 */
     body {
       background-color: #FAF6F0;
       background-image:
@@ -71,7 +68,6 @@
       color: #3E362E;
     }
 
-    /* 手帳卡片擬真紙張陰影與縫線邊框 */
     .techo-card {
       background-color: #FFFDF9;
       border: 1px solid #E6DDD0;
@@ -83,7 +79,6 @@
       border: 1.5px dashed #D8CEC0;
     }
 
-    /* 半透明和紙膠帶 (Washi Tape) 裝飾 */
     .washi-tape {
       position: absolute;
       height: 22px;
@@ -117,7 +112,6 @@
       background: repeating-linear-gradient(45deg, rgba(217, 138, 108, 0.52), rgba(217, 138, 108, 0.52) 5px, rgba(232, 162, 135, 0.62) 5px, rgba(232, 162, 135, 0.62) 10px);
     }
 
-    /* 手作印章質感標籤 (Stamp Badge) */
     .stamp-badge {
       border: 1.5px solid currentColor;
       border-radius: 6px;
@@ -128,7 +122,6 @@
       align-items: center;
     }
 
-    /* 貼紙按鈕微傾互動效果 */
     .sticker-btn {
       transition: transform 0.18s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.18s ease, background-color 0.15s ease;
     }
@@ -139,27 +132,18 @@
       transform: scale(0.95) rotate(0.6deg);
     }
 
-    /* 色鉛筆筆觸進度條紋理 */
     .crayon-bar {
       background-image: linear-gradient(90deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 50%, rgba(62,54,46,0.08) 100%);
     }
 
-    /* 分頁翻頁淡入動畫 */
     @keyframes pageTurn {
-      from {
-        opacity: 0;
-        transform: translateY(8px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
     }
     .tab-page {
       animation: pageTurn 0.24s cubic-bezier(0.22, 1, 0.36, 1);
     }
 
-    /* 蓋章成功彈跳動畫 */
     @keyframes stampPop {
       0% { transform: scale(1.6) rotate(-12deg); opacity: 0; }
       60% { transform: scale(0.92) rotate(-3deg); opacity: 1; }
@@ -169,7 +153,9 @@
       animation: stampPop 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
     }
 
-    /* 自訂捲軸 */
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
     ::-webkit-scrollbar { width: 5px; height: 5px; }
     ::-webkit-scrollbar-track { background: #FAF6F0; }
     ::-webkit-scrollbar-thumb { background: #D8CEC0; border-radius: 999px; }
@@ -179,48 +165,34 @@
 
   <!-- 頂部手帳書眉導航列 -->
   <header class="sticky top-0 z-30 bg-[#FAF6F0]/92 backdrop-blur-md border-b border-[#E6DDD0]">
-    <div class="max-w-[560px] mx-auto px-4 py-3 flex items-center justify-between">
-      <div class="flex items-center gap-2.5">
-        <!-- 溫蒂專屬日系記帳本手帳書籤圖示 -->
-        <div class="w-10 h-10 rounded-2xl bg-[#FFFDF9] border border-[#D8CEC0] flex items-center justify-center shadow-xs relative">
-          <!-- 日系手繪記帳本 SVG -->
+    <div class="max-w-[560px] mx-auto px-4 py-3 flex items-center justify-between gap-2">
+      <div class="flex items-center gap-2.5 min-w-0">
+        <div class="w-10 h-10 rounded-2xl bg-[#FFFDF9] border border-[#D8CEC0] flex items-center justify-center shadow-2xs relative shrink-0">
           <svg viewBox="0 0 48 48" class="w-8 h-8" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="溫蒂記帳本">
-            <!-- 奶茶色手帳封底 -->
             <rect x="11" y="7" width="28" height="34" rx="5" fill="#C8A98E"/>
-            <!-- 奶油白手帳本體 -->
             <rect x="9" y="6" width="28" height="34" rx="5" fill="#FFFDF9" stroke="#3E362E" stroke-width="2.2"/>
-            <!-- 抹茶綠書背帶 -->
             <rect x="9" y="6" width="6.5" height="34" rx="2.5" fill="#8FA88B" stroke="#3E362E" stroke-width="2.2"/>
-            <!-- 封面小貼紙框 -->
             <rect x="19" y="12" width="14" height="8" rx="2" fill="#FBF7EE" stroke="#C8A98E" stroke-width="1.4"/>
             <line x1="21.5" y1="16" x2="30.5" y2="16" stroke="#3E362E" stroke-width="1.6" stroke-linecap="round"/>
-            <!-- 手帳內頁橫線 -->
             <line x1="19" y1="24.5" x2="32.5" y2="24.5" stroke="#D8CEC0" stroke-width="1.8" stroke-linecap="round"/>
             <line x1="19" y1="29.5" x2="29" y2="29.5" stroke="#D8CEC0" stroke-width="1.8" stroke-linecap="round"/>
-            <!-- 右下角金幣小裝飾 -->
             <circle cx="33.5" cy="33.5" r="5.5" fill="#DFB768" stroke="#3E362E" stroke-width="1.8"/>
             <text x="33.5" y="36" text-anchor="middle" font-family="monospace" font-weight="bold" font-size="7.5" fill="#3E362E">$</text>
           </svg>
-          <span class="absolute -bottom-1 -right-1 text-[11px] bg-[#DFB768] text-[#3E362E] font-mono font-bold px-1 rounded-md border border-[#FFFDF9] leading-tight">$$</span>
+          <span class="absolute -bottom-1 -right-1 text-[10px] bg-[#DFB768] text-[#3E362E] font-mono font-bold px-1 rounded-md border border-[#FFFDF9] leading-tight">$$</span>
         </div>
-        <div>
-          <div class="flex items-center gap-2">
-            <h1 class="text-base sm:text-lg font-black text-[#3E362E] tracking-wide">溫蒂帳本</h1>
-            <span class="stamp-badge text-[9px] font-bold text-[#D98A6C]">WENDY</span>
+        <div class="min-w-0">
+          <div class="flex items-center gap-1.5">
+            <h1 class="text-base sm:text-lg font-black text-[#3E362E] tracking-wide truncate">溫蒂帳本</h1>
+            <span class="stamp-badge text-[9px] font-bold text-[#D98A6C] shrink-0">WENDY</span>
           </div>
-          <p class="text-[11px] text-[#8C7D70] font-mono mt-0.5" id="headerDateDisplay">2026.11.25 WED</p>
+          <p class="text-[11px] text-[#8C7D70] mt-0.5 truncate">日系手帳 · 雙卡週期與民國年月份帳本</p>
         </div>
-      </div>
-
-      <!-- 右上角快速預算提示膠囊 -->
-      <div onclick="switchTab('overview')" class="cursor-pointer bg-[#FFFDF9] border border-[#E6DDD0] hover:border-[#C8A98E] px-3 py-1.5 rounded-2xl shadow-2xs text-right transition">
-        <div class="text-[10px] text-[#8C7D70] font-bold" id="headerCycleLabel">本期結餘 (5~4日)</div>
-        <div class="text-xs sm:text-sm font-mono font-bold text-[#3E362E]" id="headerCycleNet">$0</div>
       </div>
     </div>
   </header>
 
-  <!-- 蓋章提示貼紙容器 (取代 alert) -->
+  <!-- 蓋章提示貼紙容器 -->
   <div id="toastContainer" class="fixed top-16 left-1/2 -translate-x-1/2 z-50 pointer-events-none flex flex-col items-center gap-2 w-11/12 max-w-xs"></div>
 
   <!-- ========================================================
@@ -232,16 +204,16 @@
          分頁 1：✏️ 記一筆 (快速記帳頁)
     ====================================================== -->
     <div id="tab-record" class="tab-page space-y-5">
-      <!-- 頂部今日控制預算迷你提示條 -->
-      <div class="bg-[#FFFDF9] border border-[#E6DDD0] rounded-2xl px-4 py-2.5 flex items-center justify-between shadow-2xs">
-        <div class="flex items-center gap-2 text-xs">
-          <span class="w-2 h-2 rounded-full bg-[#8FA88B]"></span>
-          <span class="text-[#8C7D70] font-bold">今日已花費：</span>
-          <span class="font-mono font-bold text-sm text-[#3E362E]" id="miniTodaySpent">$0</span>
+      <!-- 頂部今日花費與本期結餘條 -->
+      <div class="bg-[#FFFDF9] border border-[#E6DDD0] rounded-2xl px-4 py-2.5 flex items-center justify-between shadow-2xs gap-2">
+        <div class="flex items-center gap-2 text-xs min-w-0">
+          <span class="w-2 h-2 rounded-full bg-[#8FA88B] shrink-0"></span>
+          <span class="text-[#8C7D70] font-bold shrink-0">今日已花費：</span>
+          <span class="font-mono font-bold text-sm text-[#3E362E] truncate" id="miniTodaySpent">$0</span>
         </div>
-        <button onclick="switchTab('overview')" class="text-[11px] font-bold text-[#829BB0] hover:text-[#3E362E] flex items-center gap-1 transition">
-          <span>看帳單總覽</span>
-          <i class="fa-solid fa-chevron-right text-[9px]"></i>
+        <button type="button" onclick="switchTab('overview')" class="text-[11px] font-bold text-[#8A6B2E] hover:text-[#3E362E] flex items-center gap-1 transition shrink-0">
+          <span>本期結餘：</span>
+          <span class="font-mono" id="headerCycleNet">$0</span>
         </button>
       </div>
 
@@ -260,7 +232,7 @@
         <!-- 支出 / 收入 雙模式書籤切換 -->
         <div class="grid grid-cols-2 gap-2 p-1 bg-[#F5EFE6] rounded-2xl border border-[#E6DDD0] mb-4">
           <button type="button" id="typeExpenseBtn" onclick="setEntryType('expense')"
-            class="py-2 rounded-xl text-xs font-bold bg-[#3E362E] text-[#FFFDF9] shadow-xs transition flex items-center justify-center gap-1.5">
+            class="py-2 rounded-xl text-xs font-bold bg-[#3E362E] text-[#FFFDF9] shadow-2xs transition flex items-center justify-center gap-1.5">
             <span>💸</span><span>記支出</span>
           </button>
           <button type="button" id="typeIncomeBtn" onclick="setEntryType('income')"
@@ -270,9 +242,21 @@
         </div>
 
         <form id="expenseForm" onsubmit="handleFormSubmit(event)" class="space-y-4">
-          <!-- 1. 消費/入帳日期 -->
+          <!-- 1. 消費/入帳日期（含「昨天」「今天」快捷貼紙按鈕） -->
           <div class="min-w-0">
-            <label class="block text-xs font-bold text-[#8C7D70] mb-1.5" id="dateFieldLabel">消費日期</label>
+            <div class="flex items-center justify-between mb-1.5">
+              <label class="text-xs font-bold text-[#8C7D70]" id="dateFieldLabel">消費日期</label>
+              <div class="flex items-center gap-1.5">
+                <button type="button" onclick="setQuickDateOffset(-1)"
+                  class="sticker-btn px-2.5 py-0.5 rounded-lg bg-[#FAF6F0] hover:bg-[#F5EFE6] border border-[#E6DDD0] text-[11px] font-bold text-[#3E362E]">
+                  昨天
+                </button>
+                <button type="button" onclick="setQuickDateOffset(0)"
+                  class="sticker-btn px-2.5 py-0.5 rounded-lg bg-[#FBF7EE] hover:bg-[#F5EFE6] border border-[#DFB768]/80 text-[11px] font-bold text-[#8A6B2E]">
+                  今天
+                </button>
+              </div>
+            </div>
             <input type="date" id="dateInput" required
               class="block w-full min-w-0 max-w-full px-3.5 py-2.5 bg-[#FAF6F0] border border-[#E6DDD0] rounded-2xl text-sm font-mono font-bold text-[#3E362E] focus:outline-none focus:ring-2 focus:ring-[#C8A98E] focus:bg-[#FFFDF9] transition">
           </div>
@@ -292,27 +276,25 @@
 
           <!-- 3. 分類貼紙按鈕 -->
           <div class="min-w-0">
-            <label class="block text-xs font-bold text-[#8C7D70] mb-2" id="categoryFieldLabel">支出分類貼紙</label>
-            <div class="grid grid-cols-4 sm:grid-cols-5 gap-1.5 sm:gap-2" id="categoryPills">
-              <!-- 由 JS 動態渲染 -->
+            <div class="flex items-center justify-between mb-2">
+              <label class="text-xs font-bold text-[#8C7D70]" id="categoryFieldLabel">支出分類貼紙</label>
             </div>
+            <div class="grid grid-cols-4 gap-1.5 sm:gap-2" id="categoryPills"></div>
           </div>
 
           <!-- 4. 支付/入帳方式印章按鈕 -->
           <div class="min-w-0">
             <label class="block text-xs font-bold text-[#8C7D70] mb-2" id="paymentFieldLabel">支付方式</label>
-            <div class="grid grid-cols-2 sm:grid-cols-4 gap-1.5 sm:gap-2" id="paymentPills">
-              <!-- 由 JS 動態渲染 -->
-            </div>
+            <div class="grid grid-cols-3 sm:grid-cols-5 gap-1.5 sm:gap-2" id="paymentPills"></div>
 
-            <!-- 信用卡跨結帳日請款順延選項（僅在支出且選擇玉山卡/台新卡時自動浮現） -->
+            <!-- 信用卡/薪資扣除跨結帳日請款順延選項 -->
             <div id="deferCycleWrapper" class="hidden mt-2.5">
               <label class="cursor-pointer flex items-center justify-between gap-2 px-3 py-2.5 rounded-2xl bg-[#FBF7EE] border border-[#DFB768]/80 hover:border-[#C8A98E] transition select-none">
                 <div class="flex items-center gap-2 min-w-0">
                   <input type="checkbox" id="deferCycleInput" class="w-4 h-4 shrink-0 accent-[#D98A6C] rounded cursor-pointer">
                   <div class="min-w-0">
                     <div class="text-xs font-bold text-[#3E362E] leading-snug">⏳ 商店跨結帳日請款（順延下期）</div>
-                    <div class="text-[10px] text-[#8A6B2E] leading-snug" id="deferCycleHint">消費日不變，但帳單歸入下一期結算</div>
+                    <div class="text-[10px] text-[#8A6B2E] leading-snug">消費日不變，但帳單歸入下一期結算</div>
                   </div>
                 </div>
                 <span class="stamp-badge text-[9px] font-bold text-[#8A6B2E] shrink-0">次期入帳</span>
@@ -324,10 +306,27 @@
           <div class="space-y-3 pt-1">
             <div>
               <label class="block text-xs font-bold text-[#8C7D70] mb-1.5">手帳備註</label>
-              <input type="text" id="noteInput" placeholder="例如：午餐便當、包子的零食、捷運加值..."
+              <input type="text" id="noteInput" placeholder="例如：早餐、午餐、晚餐、日用品、包子飼料..."
                 class="w-full px-3.5 py-2.5 bg-[#FAF6F0] border border-[#E6DDD0] rounded-2xl text-sm text-[#3E362E] placeholder:text-[#B5A89B] focus:outline-none focus:ring-2 focus:ring-[#C8A98E] focus:bg-[#FFFDF9] transition">
-              <!-- 快填小貼紙列（固定：早餐、午餐、晚餐、日用品 ＋ 自動學習常用備註） -->
-              <div class="flex flex-wrap items-center gap-1.5 mt-2" id="quickNotePills"></div>
+              <!-- 單行快填小貼紙列（支援自訂手改） -->
+              <div class="flex items-center gap-1.5 mt-2 flex-nowrap overflow-x-auto no-scrollbar" id="quickNotePills"></div>
+              <!-- 自訂快填貼紙編輯器 -->
+              <div id="quickNoteEditor" class="hidden mt-2 p-2.5 rounded-2xl bg-[#FAF6F0] border border-[#E6DDD0] space-y-2">
+                <div class="flex items-center justify-between">
+                  <span class="text-[11px] font-bold text-[#3E362E]">✏️ 自訂快填貼紙（點擊 × 移除）</span>
+                  <button type="button" onclick="resetDefaultQuickNotes()" class="text-[10px] font-bold text-[#8C7D70] hover:text-[#D98A6C]">恢復預設</button>
+                </div>
+                <div class="flex flex-wrap gap-1.5" id="quickNoteEditorTags"></div>
+                <div class="flex items-center gap-1.5">
+                  <input type="text" id="newQuickNoteInput" placeholder="輸入新快填名稱..." maxlength="12"
+                    onkeydown="if(event.key==='Enter'){event.preventDefault();addCustomQuickNote();}"
+                    class="flex-1 min-w-0 px-2.5 py-1.5 bg-[#FFFDF9] border border-[#E6DDD0] rounded-xl text-xs text-[#3E362E] focus:outline-none focus:ring-1 focus:ring-[#C8A98E]">
+                  <button type="button" onclick="addCustomQuickNote()"
+                    class="sticker-btn shrink-0 px-3 py-1.5 rounded-xl bg-[#8FA88B] text-white text-xs font-bold">
+                    新增
+                  </button>
+                </div>
+              </div>
             </div>
 
             <button type="submit" id="submitRecordBtn"
@@ -341,26 +340,36 @@
     </div>
 
     <!-- ======================================================
-         分頁 2：💳 帳單與總覽 (5日~4日週期收支與信用卡結帳週期頁)
+         分頁 2：📊 帳單總覽 (5日~4日週期收支與各通路結帳週期頁)
     ====================================================== -->
     <div id="tab-overview" class="tab-page hidden space-y-5">
       <!-- 1. 溫蒂 5日 ~ 4日 週期收支總覽卡 -->
       <section class="techo-card rounded-3xl p-5 sm:p-6">
         <div class="washi-tape washi-mustard"></div>
 
-        <div class="flex items-center justify-between mb-3 pt-1">
-          <div>
+        <div class="flex items-center justify-between gap-2 mb-3 pt-1">
+          <div class="min-w-0">
             <h2 class="text-base font-bold text-[#3E362E] flex items-center gap-2">
               <span>📒</span>
-              <span>收支結餘總覽</span>
+              <span>本期收支結餘</span>
             </h2>
-            <p class="text-[11px] font-mono text-[#8C7D70] mt-0.5" id="mainCycleRangeText">週期：11/05 ~ 12/04 (5日~4日)</p>
+            <p class="text-[11px] font-mono text-[#8C7D70] mt-0.5 truncate" id="mainCycleRangeText">週期：11/05 ~ 12/04 (5日~4日)</p>
           </div>
 
-          <!-- 本期 / 上期 切換貼紙 -->
-          <div class="inline-flex rounded-xl bg-[#F5EFE6] p-1 border border-[#E6DDD0] text-xs font-bold shrink-0">
-            <button id="cyclePrevBtn" onclick="setCycleOffset(-1)" class="px-2.5 py-1 rounded-lg text-[#8C7D70] hover:text-[#3E362E] transition">上期</button>
-            <button id="cycleCurrBtn" onclick="setCycleOffset(0)" class="px-2.5 py-1 rounded-lg bg-[#FFFDF9] text-[#3E362E] shadow-xs border border-[#E6DDD0]/80 transition">本期</button>
+          <!-- 任意週期前後切換器 (< | 本期 | >) -->
+          <div class="inline-flex items-center rounded-xl bg-[#F5EFE6] p-1 border border-[#E6DDD0] text-xs font-bold shrink-0 gap-0.5">
+            <button type="button" onclick="shiftCycleOffset(-1)" title="上一期"
+              class="w-7 h-7 rounded-lg text-[#8C7D70] hover:text-[#3E362E] hover:bg-[#FFFDF9]/70 flex items-center justify-center transition">
+              <i class="fa-solid fa-chevron-left text-[10px]"></i>
+            </button>
+            <button type="button" id="cycleStatusBtn" onclick="setCycleOffset(0)" title="點擊回到本期"
+              class="px-2.5 py-1 rounded-lg bg-[#FFFDF9] text-[#3E362E] shadow-2xs border border-[#E6DDD0]/80 transition whitespace-nowrap">
+              本期
+            </button>
+            <button type="button" onclick="shiftCycleOffset(1)" title="下一期"
+              class="w-7 h-7 rounded-lg text-[#8C7D70] hover:text-[#3E362E] hover:bg-[#FFFDF9]/70 flex items-center justify-center transition">
+              <i class="fa-solid fa-chevron-right text-[10px]"></i>
+            </button>
           </div>
         </div>
 
@@ -383,87 +392,20 @@
         </div>
       </section>
 
-      <!-- 2. 信用卡結帳週期與現金支出卡片 -->
+      <!-- 2. 各通路支出與一鍵結算帶入帳本 -->
       <section class="techo-card rounded-3xl p-5 sm:p-6">
         <div class="washi-tape washi-matcha"></div>
 
         <div class="flex items-center justify-between mb-3 pt-1">
           <h2 class="text-base font-bold text-[#3E362E] flex items-center gap-2">
-            <span>💳</span>
+            <span>📊</span>
             <span>各通路支出與結算歸檔</span>
           </h2>
-          <span class="text-[11px] text-[#8C7D70] font-medium">對完帳可按結算帶入帳本</span>
+          <span class="text-[11px] text-[#8C7D70] font-medium">一鍵結算帶入帳本</span>
         </div>
 
-        <!-- 四張手作支出統計卡片 -->
         <div class="grid grid-cols-2 gap-3">
-          <!-- 1. 玉山卡 (28日 ~ 隔月27日) -->
-          <div class="rounded-2xl p-3.5 bg-[#F3F6F2] border border-[#D4DFD1] flex flex-col justify-between">
-            <div>
-              <div onclick="jumpToLedgerWithFilter('玉山卡')" class="cursor-pointer group">
-                <div class="flex items-center justify-between gap-1">
-                  <span class="text-xs font-bold text-[#4A6147] flex items-center gap-1.5">
-                    <span class="w-2 h-2 rounded-full bg-[#8FA88B]"></span>玉山卡
-                  </span>
-                  <span class="stamp-badge text-[9px] font-bold text-[#6E8A6A]">28~27結帳</span>
-                </div>
-                <div class="text-xl sm:text-2xl font-bold font-mono text-[#3E362E] mt-2 tracking-tight group-hover:text-[#4A6147] transition" id="statEsun">$0</div>
-                <div class="text-[11px] font-mono text-[#6E8A6A] mt-1 flex items-center justify-between">
-                  <span id="rangeEsun">--/-- ~ --/--</span>
-                  <i class="fa-solid fa-arrow-up-right-from-square text-[9px] opacity-70"></i>
-                </div>
-              </div>
-              <!-- 玉山卡未核對明細一鍵預覽膠囊 -->
-              <div id="unreconciledEsunWrap" class="mt-2 hidden">
-                <button type="button" onclick="jumpToUnreconciledCard('玉山卡')"
-                  class="sticker-btn w-full py-1 px-2 rounded-lg bg-[#FFFDF9] border border-[#8FA88B] text-[#4A6147] text-[10px] font-bold flex items-center justify-between">
-                  <span id="unreconciledEsunText">⏳ 未核對 0 筆</span>
-                  <span class="underline">去對帳</span>
-                </button>
-              </div>
-            </div>
-            <div class="mt-2.5 pt-2 border-t border-[#D4DFD1]">
-              <button type="button" id="settleEsunBtn" onclick="confirmSettleChannel('玉山卡')"
-                class="sticker-btn w-full py-1.5 px-2 rounded-xl bg-[#8FA88B] hover:bg-[#7A9476] text-white text-[11px] font-bold flex items-center justify-center gap-1 shadow-2xs">
-                <span>📦</span><span id="settleEsunLabel">結算帶入帳本</span>
-              </button>
-            </div>
-          </div>
-
-          <!-- 2. 台新卡 (8日 ~ 隔月7日) -->
-          <div class="rounded-2xl p-3.5 bg-[#FAF1ED] border border-[#EBD5CC] flex flex-col justify-between">
-            <div>
-              <div onclick="jumpToLedgerWithFilter('台新卡')" class="cursor-pointer group">
-                <div class="flex items-center justify-between gap-1">
-                  <span class="text-xs font-bold text-[#9E5338] flex items-center gap-1.5">
-                    <span class="w-2 h-2 rounded-full bg-[#D98A6C]"></span>台新卡
-                  </span>
-                  <span class="stamp-badge text-[9px] font-bold text-[#B8684B]">8~7結帳</span>
-                </div>
-                <div class="text-xl sm:text-2xl font-bold font-mono text-[#3E362E] mt-2 tracking-tight group-hover:text-[#9E5338] transition" id="statTaishin">$0</div>
-                <div class="text-[11px] font-mono text-[#B8684B] mt-1 flex items-center justify-between">
-                  <span id="rangeTaishin">--/-- ~ --/--</span>
-                  <i class="fa-solid fa-arrow-up-right-from-square text-[9px] opacity-70"></i>
-                </div>
-              </div>
-              <!-- 台新卡未核對明細一鍵預覽膠囊 -->
-              <div id="unreconciledTaishinWrap" class="mt-2 hidden">
-                <button type="button" onclick="jumpToUnreconciledCard('台新卡')"
-                  class="sticker-btn w-full py-1 px-2 rounded-lg bg-[#FFFDF9] border border-[#D98A6C] text-[#9E5338] text-[10px] font-bold flex items-center justify-between">
-                  <span id="unreconciledTaishinText">⏳ 未核對 0 筆</span>
-                  <span class="underline">去對帳</span>
-                </button>
-              </div>
-            </div>
-            <div class="mt-2.5 pt-2 border-t border-[#EBD5CC]">
-              <button type="button" id="settleTaishinBtn" onclick="confirmSettleChannel('台新卡')"
-                class="sticker-btn w-full py-1.5 px-2 rounded-xl bg-[#D98A6C] hover:bg-[#C7795B] text-white text-[11px] font-bold flex items-center justify-center gap-1 shadow-2xs">
-                <span>📦</span><span id="settleTaishinLabel">結算帶入帳本</span>
-              </button>
-            </div>
-          </div>
-
-          <!-- 3. 現金 (5日 ~ 隔月4日) -->
+          <!-- 1. 現金 (5日 ~ 隔月4日) -->
           <div class="rounded-2xl p-3.5 bg-[#FBF7EE] border border-[#EBE0C9] flex flex-col justify-between">
             <div onclick="jumpToLedgerWithFilter('現金')" class="cursor-pointer group">
               <div class="flex items-center justify-between">
@@ -486,7 +428,94 @@
             </div>
           </div>
 
-          <!-- 4. 其他卡 (5日 ~ 隔月4日) -->
+          <!-- 2. 薪資扣除專區卡片 (5日 ~ 隔月4日) -->
+          <div class="rounded-2xl p-3.5 bg-[#F1F7F6] border border-[#CFE0DD] flex flex-col justify-between">
+            <div onclick="jumpToLedgerWithFilter('薪資扣除')" class="cursor-pointer group">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-bold text-[#3F6B63] flex items-center gap-1.5">
+                  <span>💼</span>薪資扣除
+                </span>
+                <span class="stamp-badge text-[9px] font-bold text-[#3F6B63]">5~4週期</span>
+              </div>
+              <div class="text-lg sm:text-xl font-bold font-mono text-[#3E362E] mt-2 group-hover:text-[#3F6B63] transition" id="statSalaryDeduct">$0</div>
+              <div class="text-[11px] font-mono text-[#3F6B63]/85 mt-1 flex items-center justify-between">
+                <span id="rangeSalaryDeduct">--/-- ~ --/--</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[9px] opacity-70"></i>
+              </div>
+            </div>
+            <div class="mt-2.5 pt-2 border-t border-[#CFE0DD]">
+              <button type="button" id="settleSalaryDeductBtn" onclick="confirmSettleChannel('薪資扣除')"
+                class="sticker-btn w-full py-1.5 px-2 rounded-xl bg-[#7BA69E] hover:bg-[#69948C] text-white text-[11px] font-bold flex items-center justify-center gap-1 shadow-2xs">
+                <span>📦</span><span id="settleSalaryDeductLabel">結算帶入帳本</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- 3. 玉山卡 (28日 ~ 隔月27日) -->
+          <div class="rounded-2xl p-3.5 bg-[#F3F6F2] border border-[#D4DFD1] flex flex-col justify-between">
+            <div>
+              <div onclick="jumpToLedgerWithFilter('玉山卡')" class="cursor-pointer group">
+                <div class="flex items-center justify-between gap-1">
+                  <span class="text-xs font-bold text-[#4A6147] flex items-center gap-1.5">
+                    <span class="w-2 h-2 rounded-full bg-[#8FA88B]"></span>玉山卡
+                  </span>
+                  <span class="stamp-badge text-[9px] font-bold text-[#6E8A6A]">28~27結帳</span>
+                </div>
+                <div class="text-xl sm:text-2xl font-bold font-mono text-[#3E362E] mt-2 tracking-tight group-hover:text-[#4A6147] transition" id="statEsun">$0</div>
+                <div class="text-[11px] font-mono text-[#6E8A6A] mt-1 flex items-center justify-between">
+                  <span id="rangeEsun">--/-- ~ --/--</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square text-[9px] opacity-70"></i>
+                </div>
+              </div>
+              <div id="unreconciledEsunWrap" class="mt-2 hidden">
+                <button type="button" onclick="jumpToUnreconciledCard('玉山卡')"
+                  class="sticker-btn w-full py-1 px-2 rounded-lg bg-[#FFFDF9] border border-[#8FA88B] text-[#4A6147] text-[10px] font-bold flex items-center justify-between">
+                  <span id="unreconciledEsunText">⏳ 未核對 0 筆</span>
+                  <span class="underline">去對帳</span>
+                </button>
+              </div>
+            </div>
+            <div class="mt-2.5 pt-2 border-t border-[#D4DFD1]">
+              <button type="button" id="settleEsunBtn" onclick="confirmSettleChannel('玉山卡')"
+                class="sticker-btn w-full py-1.5 px-2 rounded-xl bg-[#8FA88B] hover:bg-[#7A9476] text-white text-[11px] font-bold flex items-center justify-center gap-1 shadow-2xs">
+                <span>📦</span><span id="settleEsunLabel">結算帶入帳本</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- 4. 台新卡 (8日 ~ 隔月7日) -->
+          <div class="rounded-2xl p-3.5 bg-[#FAF1ED] border border-[#EBD5CC] flex flex-col justify-between">
+            <div>
+              <div onclick="jumpToLedgerWithFilter('台新卡')" class="cursor-pointer group">
+                <div class="flex items-center justify-between gap-1">
+                  <span class="text-xs font-bold text-[#9E5338] flex items-center gap-1.5">
+                    <span class="w-2 h-2 rounded-full bg-[#D98A6C]"></span>台新卡
+                  </span>
+                  <span class="stamp-badge text-[9px] font-bold text-[#B8684B]">8~7結帳</span>
+                </div>
+                <div class="text-xl sm:text-2xl font-bold font-mono text-[#3E362E] mt-2 tracking-tight group-hover:text-[#9E5338] transition" id="statTaishin">$0</div>
+                <div class="text-[11px] font-mono text-[#B8684B] mt-1 flex items-center justify-between">
+                  <span id="rangeTaishin">--/-- ~ --/--</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square text-[9px] opacity-70"></i>
+                </div>
+              </div>
+              <div id="unreconciledTaishinWrap" class="mt-2 hidden">
+                <button type="button" onclick="jumpToUnreconciledCard('台新卡')"
+                  class="sticker-btn w-full py-1 px-2 rounded-lg bg-[#FFFDF9] border border-[#D98A6C] text-[#9E5338] text-[10px] font-bold flex items-center justify-between">
+                  <span id="unreconciledTaishinText">⏳ 未核對 0 筆</span>
+                  <span class="underline">去對帳</span>
+                </button>
+              </div>
+            </div>
+            <div class="mt-2.5 pt-2 border-t border-[#EBD5CC]">
+              <button type="button" id="settleTaishinBtn" onclick="confirmSettleChannel('台新卡')"
+                class="sticker-btn w-full py-1.5 px-2 rounded-xl bg-[#D98A6C] hover:bg-[#C7795B] text-white text-[11px] font-bold flex items-center justify-center gap-1 shadow-2xs">
+                <span>📦</span><span id="settleTaishinLabel">結算帶入帳本</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- 5. 其他卡 (5日 ~ 隔月4日) -->
           <div class="rounded-2xl p-3.5 bg-[#F2F5F8] border border-[#D6E0E8] flex flex-col justify-between">
             <div onclick="jumpToLedgerWithFilter('其他卡')" class="cursor-pointer group">
               <div class="flex items-center justify-between">
@@ -526,14 +555,12 @@
           </div>
         </div>
 
-        <div id="categoryChartContainer" class="space-y-3.5">
-          <!-- 由 JS 動態渲染色鉛筆進度條 -->
-        </div>
+        <div id="categoryChartContainer" class="space-y-3.5"></div>
       </section>
     </div>
 
     <!-- ======================================================
-         分頁 3：📖 明細帳本 (民國年月份帳本與完整紀錄篩選頁)
+         分頁 3：📖 明細帳本 (民國年月份帳本與跨月/指定帳本關鍵字搜尋)
     ====================================================== -->
     <div id="tab-ledger" class="tab-page hidden space-y-4">
       <section class="techo-card rounded-3xl p-5 sm:p-6">
@@ -555,7 +582,7 @@
           </div>
         </div>
 
-        <!-- 📊 跨月年度帳本總表比較面板 (可展開/收合，點擊任一月可直接切換查看) -->
+        <!-- 📊 跨月年度帳本總表比較面板 -->
         <div id="annualSummaryPanel" class="hidden mb-3.5 p-3.5 rounded-2xl bg-[#FFFDF9] border border-[#D8CEC0] shadow-2xs">
           <div class="flex items-center justify-between mb-2">
             <span class="text-xs font-bold text-[#3E362E] flex items-center gap-1.5">
@@ -563,25 +590,21 @@
             </span>
             <button type="button" onclick="toggleAnnualSummaryPanel()" class="text-[11px] text-[#8C7D70] hover:text-[#3E362E]">收起</button>
           </div>
-          <div id="annualSummaryList" class="divide-y divide-[#E6DDD0] text-xs">
-            <!-- 由 JS 動態渲染各民國年月份帳本比較列 -->
-          </div>
+          <div id="annualSummaryList" class="divide-y divide-[#E6DDD0] text-xs"></div>
         </div>
 
-        <!-- 民國年月份帳本選擇器 (例如：115年11月帳本 / 115年12月帳本) -->
+        <!-- 民國年月份帳本選擇器 -->
         <div class="mb-3 p-3.5 rounded-2xl bg-[#FBF7EE] border border-[#EBE0C9]">
           <div class="flex items-center justify-between gap-2 mb-2">
             <label for="ledgerBookMonthSelect" class="text-xs font-bold text-[#8A6B2E] flex items-center gap-1.5">
               <span>📘</span><span>選擇歸檔月份帳本</span>
             </label>
-            <span class="text-[10px] font-bold text-[#8C7D70]" id="ledgerBookRuleHint">含結算帶入與當期收支</span>
+            <span class="text-[10px] font-bold text-[#8C7D70]">含結算帶入與當期收支</span>
           </div>
           <select id="ledgerBookMonthSelect" onchange="renderLedger()"
             class="w-full text-sm font-bold bg-[#FFFDF9] border border-[#DFB768] rounded-xl px-3 py-2.5 text-[#3E362E] shadow-2xs focus:outline-none focus:ring-2 focus:ring-[#C8A98E]">
-            <!-- 由 JS 動態生成 115年11月帳本、115年12月帳本 等選項 -->
           </select>
 
-          <!-- 該月份帳本收支結算加總條 -->
           <div class="grid grid-cols-3 gap-2 mt-2.5 pt-2.5 border-t border-[#EBE0C9] text-center">
             <div>
               <div class="text-[10px] font-bold text-[#4A6147]">💰 帳本收入</div>
@@ -598,39 +621,69 @@
           </div>
         </div>
 
-        <!-- 進階細項篩選控制區 -->
+        <!-- 進階細項篩選與歷史關鍵字搜尋區 -->
         <div class="space-y-2.5 bg-[#FAF6F0] p-3.5 rounded-2xl border border-[#E6DDD0]">
-          <div class="grid grid-cols-2 gap-2">
-            <!-- 細項週期/結算狀態篩選 -->
-            <select id="ledgerPeriodFilter" onchange="renderLedger()" class="text-xs font-bold bg-[#FFFDF9] border border-[#E6DDD0] rounded-xl px-2.5 py-2 text-[#3E362E] focus:outline-none focus:ring-2 focus:ring-[#C8A98E]">
-              <option value="ALL">📅 帳本內全部明細</option>
-              <option value="SETTLED_ONLY">📦 僅看已結算帶入</option>
-              <option value="UNSETTLED_ONLY">⏳ 僅看尚未結算</option>
-              <option value="ESUN_CURR">🌿 玉山本期 (28~27)</option>
-              <option value="ESUN_PREV">🌿 玉山上期 (28~27)</option>
-              <option value="TAISHIN_CURR">🍑 台新本期 (8~7)</option>
-              <option value="TAISHIN_PREV">🍑 台新上期 (8~7)</option>
-            </select>
+          <!-- 🔎 歷史花費關鍵字搜尋框 -->
+          <div class="relative">
+            <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-[#8C7D70] text-xs"></i>
+            <input type="text" id="ledgerSearchInput" oninput="handleLedgerSearchInput()"
+              placeholder="🔍 搜尋花費（輸入品項、備註、分類、包子、月份...）"
+              class="w-full pl-9 pr-16 py-2.5 bg-[#FFFDF9] border border-[#DFB768] rounded-xl text-xs font-bold text-[#3E362E] placeholder:text-[#A39588] placeholder:font-normal shadow-2xs focus:outline-none focus:ring-2 focus:ring-[#C8A98E]">
+            <button type="button" id="clearSearchBtn" onclick="clearLedgerSearch()"
+              class="hidden absolute right-2 top-1/2 -translate-y-1/2 px-2.5 py-1 rounded-lg bg-[#F5EFE6] hover:bg-[#EBE2D5] text-[10px] font-bold text-[#8C7D70] hover:text-[#3E362E] transition">
+              清除
+            </button>
+          </div>
 
+          <!-- 🔎 搜尋範圍切換：所有帳本 vs 指定帳本 -->
+          <div id="searchScopeBar" class="flex flex-wrap items-center justify-between gap-2 px-1">
+            <div class="inline-flex rounded-xl bg-[#F5EFE6] p-1 border border-[#E6DDD0] text-[11px] font-bold">
+              <button type="button" id="scopeAllBooksBtn" onclick="setSearchBookMode('ALL')"
+                class="px-2.5 py-1 rounded-lg bg-[#3E362E] text-[#FFFDF9] shadow-2xs transition">
+                📚 所有帳本
+              </button>
+              <button type="button" id="scopeTargetBookBtn" onclick="setSearchBookMode('TARGET')"
+                class="px-2.5 py-1 rounded-lg text-[#8C7D70] hover:text-[#3E362E] transition">
+                🎯 指定帳本
+              </button>
+            </div>
+
+            <!-- 指定帳本選擇器（當選擇「指定帳本」時顯示） -->
+            <select id="searchTargetBookSelect" onchange="handleSearchTargetBookChange()"
+              class="hidden flex-1 min-w-[140px] text-[11px] font-bold bg-[#FFFDF9] border border-[#DFB768] rounded-xl px-2.5 py-1.5 text-[#3E362E] focus:outline-none focus:ring-2 focus:ring-[#C8A98E]">
+            </select>
+          </div>
+
+          <!-- 🔎 搜尋結果統計提示條 -->
+          <div id="searchResultBanner" class="hidden p-3 rounded-xl bg-[#FFFDF9] border border-[#DFB768] flex flex-wrap items-center justify-between gap-2 text-xs">
+            <div class="flex flex-wrap items-center gap-1.5 min-w-0">
+              <span class="stamp-badge text-[10px] font-bold bg-[#FBF7EE] text-[#8A6B2E] border-[#DFB768]" id="searchScopeBadge">📚 所有帳本</span>
+              <span class="font-bold text-[#3E362E]" id="searchResultCountText">共 0 筆</span>
+              <span class="font-mono font-bold text-[#C85A32]" id="searchResultAmountText"></span>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 gap-2">
             <!-- 收支類型篩選 -->
             <select id="ledgerTypeFilter" onchange="renderLedger()" class="text-xs font-bold bg-[#FFFDF9] border border-[#E6DDD0] rounded-xl px-2.5 py-2 text-[#3E362E] focus:outline-none focus:ring-2 focus:ring-[#C8A98E]">
               <option value="ALL">🔄 全部收支類型</option>
               <option value="expense">💸 僅看支出</option>
               <option value="income">💰 僅看收入</option>
             </select>
+
+            <!-- 結算/週期狀態篩選 -->
+            <select id="ledgerPeriodFilter" onchange="renderLedger()" class="text-xs font-bold bg-[#FFFDF9] border border-[#E6DDD0] rounded-xl px-2.5 py-2 text-[#3E362E] focus:outline-none focus:ring-2 focus:ring-[#C8A98E]">
+              <option value="ALL">📦 全部結算狀態</option>
+              <option value="SETTLED_ONLY">✅ 已結算帶入</option>
+              <option value="UNSETTLED_ONLY">⏳ 尚未結算</option>
+              <option value="ESUN_CURR">🌿 玉山本期 (28~27)</option>
+              <option value="ESUN_PREV">🌿 玉山上期 (28~27)</option>
+              <option value="TAISHIN_CURR">🍑 台新本期 (8~7)</option>
+              <option value="TAISHIN_PREV">🍑 台新上期 (8~7)</option>
+            </select>
           </div>
 
           <div class="grid grid-cols-2 gap-2">
-            <!-- 支付/入帳方式篩選 -->
-            <select id="ledgerPaymentFilter" onchange="renderLedger()" class="text-xs font-bold bg-[#FFFDF9] border border-[#E6DDD0] rounded-xl px-2.5 py-2 text-[#3E362E] focus:outline-none focus:ring-2 focus:ring-[#C8A98E]">
-              <option value="ALL">💳 全部帳戶/卡片</option>
-              <option value="現金">💵 現金</option>
-              <option value="玉山卡">💳 玉山卡</option>
-              <option value="台新卡">💳 台新卡</option>
-              <option value="其他卡">💳 其他卡</option>
-              <option value="銀行帳戶">🏦 銀行帳戶</option>
-            </select>
-
             <!-- 分類篩選 -->
             <select id="ledgerCategoryFilter" onchange="renderLedger()" class="text-xs font-bold bg-[#FFFDF9] border border-[#E6DDD0] rounded-xl px-2.5 py-2 text-[#3E362E] focus:outline-none focus:ring-2 focus:ring-[#C8A98E]">
               <option value="ALL">🏷️ 全部分類</option>
@@ -642,7 +695,7 @@
                 <option value="運動">🏃 運動</option>
                 <option value="保險">🛡️ 保險</option>
                 <option value="醫療">🏥 醫療</option>
-                <option value="包子">🐶 包子</option>
+                <option value="包子">🐩 包子</option>
                 <option value="出國">✈️ 出國</option>
                 <option value="儲蓄">🐷 儲蓄</option>
                 <option value="家用">🏠 家用</option>
@@ -651,36 +704,32 @@
               <optgroup label="── 收入分類 ──">
                 <option value="薪資">💼 薪資</option>
                 <option value="保險">🛡️ 保險</option>
-                <option value="信用卡回饋金">🎁 信用卡回饋金</option>
-                <option value="其他收入">✨ 其他收入</option>
+                <option value="回饋">🎁 回饋</option>
+                <option value="投資">📈 投資</option>
+                <option value="兼職">🌱 兼職</option>
+                <option value="其他">✨ 其他</option>
               </optgroup>
             </select>
-          </div>
 
-          <!-- 關鍵字搜尋框與對帳狀態篩選 -->
-          <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
-            <div class="relative sm:col-span-2">
-              <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-[#8C7D70] text-xs"></i>
-              <input type="text" id="ledgerSearchInput" oninput="renderLedger()" placeholder="搜尋備註或分類關鍵字（例如：薪資、回饋、包子）..."
-                class="w-full pl-8 pr-3 py-2 bg-[#FFFDF9] border border-[#E6DDD0] rounded-xl text-xs text-[#3E362E] placeholder:text-[#B5A89B] focus:outline-none focus:ring-2 focus:ring-[#C8A98E]">
-            </div>
-            <select id="ledgerReconcileFilter" onchange="renderLedger()" class="text-xs font-bold bg-[#FFFDF9] border border-[#E6DDD0] rounded-xl px-2.5 py-2 text-[#3E362E] focus:outline-none focus:ring-2 focus:ring-[#C8A98E]">
-              <option value="ALL">☑️ 全部核對狀態</option>
-              <option value="UNCHECKED">⏳ 尚未核對</option>
-              <option value="CHECKED">✅ 已 Check OK</option>
+            <!-- 支付/入帳方式篩選 -->
+            <select id="ledgerPaymentFilter" onchange="renderLedger()" class="text-xs font-bold bg-[#FFFDF9] border border-[#E6DDD0] rounded-xl px-2.5 py-2 text-[#3E362E] focus:outline-none focus:ring-2 focus:ring-[#C8A98E]">
+              <option value="ALL">💳 全部帳戶/卡片</option>
+              <option value="現金">💵 現金</option>
+              <option value="薪資扣除">💼 薪資扣除</option>
+              <option value="玉山卡">💳 玉山卡</option>
+              <option value="台新卡">💳 台新卡</option>
+              <option value="其他">✨ 其他</option>
             </select>
           </div>
         </div>
 
         <!-- 橫線手帳明細列表 -->
-        <div id="ledgerList" class="mt-4 divide-y divide-[#E6DDD0]">
-          <!-- 由 JS 動態渲染 -->
-        </div>
+        <div id="ledgerList" class="mt-4 divide-y divide-[#E6DDD0]"></div>
       </section>
     </div>
 
     <!-- ======================================================
-         分頁 4：⚙️ 備份與設定 (資料管理頁)
+         分頁 4：⚙️ 備份設定 (資料管理頁)
     ====================================================== -->
     <div id="tab-settings" class="tab-page hidden space-y-5">
       <section class="techo-card rounded-3xl p-5 sm:p-6">
@@ -703,9 +752,9 @@
               <div class="text-sm font-bold text-[#3E362E] flex items-center gap-1.5">
                 <span>📥</span>匯出 Excel 相容備份 (CSV)
               </div>
-              <p class="text-[11px] text-[#6E8A6A] mt-0.5">含 UTF-8 編碼，手機或電腦用 Excel 開啟不亂碼</p>
+              <p class="text-[11px] text-[#6E8A6A] mt-0.5">含 UTF-8 BOM 編碼與第 9 欄歸檔帳本，開啟不亂碼</p>
             </div>
-            <button onclick="exportToCSV()" class="sticker-btn shrink-0 px-4 py-2.5 bg-[#8FA88B] hover:bg-[#7B9477] text-white text-xs font-bold rounded-xl shadow-xs">
+            <button onclick="exportToCSV()" class="sticker-btn shrink-0 px-4 py-2.5 bg-[#8FA88B] hover:bg-[#7B9477] text-white text-xs font-bold rounded-xl shadow-2xs">
               立即匯出
             </button>
           </div>
@@ -716,28 +765,15 @@
               <div class="text-sm font-bold text-[#3E362E] flex items-center gap-1.5">
                 <span>📤</span>從 CSV 備份檔匯入還原
               </div>
-              <p class="text-[11px] text-[#526B80] mt-0.5">將先前匯出的 CSV 紀錄合併匯入目前帳本</p>
+              <p class="text-[11px] text-[#526B80] mt-0.5">自動還原歸檔帳本狀態並略過重複明細</p>
             </div>
-            <label class="sticker-btn shrink-0 px-4 py-2.5 bg-[#829BB0] hover:bg-[#6E879C] text-white text-xs font-bold rounded-xl shadow-xs cursor-pointer">
+            <label class="sticker-btn shrink-0 px-4 py-2.5 bg-[#829BB0] hover:bg-[#6E879C] text-white text-xs font-bold rounded-xl shadow-2xs cursor-pointer">
               選擇檔案
               <input type="file" id="importFileInput" accept=".csv" class="hidden" onchange="handleFileImport(event)">
             </label>
           </div>
 
-          <!-- 3. 載入範例測試資料 -->
-          <div class="p-4 rounded-2xl bg-[#FBF7EE] border border-[#EBE0C9] flex items-center justify-between gap-3">
-            <div>
-              <div class="text-sm font-bold text-[#3E362E] flex items-center gap-1.5">
-                <span>📒</span>載入溫蒂範例測試資料
-              </div>
-              <p class="text-[11px] text-[#8A6B2E] mt-0.5">加入 5~4 日週期收支（薪資、回饋金、包子與刷卡）範例</p>
-            </div>
-            <button onclick="confirmLoadSampleData()" class="sticker-btn shrink-0 px-4 py-2.5 bg-[#DFB768] hover:bg-[#CFA655] text-[#3E362E] text-xs font-bold rounded-xl shadow-xs">
-              載入範例
-            </button>
-          </div>
-
-          <!-- 4. 一鍵清空所有資料 -->
+          <!-- 3. 一鍵清空所有資料 -->
           <div class="p-4 rounded-2xl bg-[#FAF1ED] border border-[#EBD5CC] flex items-center justify-between gap-3">
             <div>
               <div class="text-sm font-bold text-[#9E5338] flex items-center gap-1.5">
@@ -745,8 +781,21 @@
               </div>
               <p class="text-[11px] text-[#B8684B] mt-0.5">將帳本歸零重新開始（清除後無法復原）</p>
             </div>
-            <button onclick="confirmClearAllData()" class="sticker-btn shrink-0 px-4 py-2.5 bg-[#D98A6C] hover:bg-[#C7795B] text-white text-xs font-bold rounded-xl shadow-xs">
+            <button onclick="confirmClearAllData()" class="sticker-btn shrink-0 px-4 py-2.5 bg-[#D98A6C] hover:bg-[#C7795B] text-white text-xs font-bold rounded-xl shadow-2xs">
               全部清空
+            </button>
+          </div>
+
+          <!-- 4. PWA 安裝到桌面 / 主畫面 -->
+          <div class="p-4 rounded-2xl bg-[#FBF7EE] border border-[#EBE0C9] flex items-center justify-between gap-3">
+            <div>
+              <div class="text-sm font-bold text-[#3E362E] flex items-center gap-1.5">
+                <span>📲</span>安裝為手機 / 桌面 App (PWA)
+              </div>
+              <p class="text-[11px] text-[#8A6B2E] mt-0.5" id="pwaStatusText">支援全螢幕獨立視窗與離線記帳體驗</p>
+            </div>
+            <button type="button" id="pwaInstallBtn" onclick="triggerPwaInstall()" class="sticker-btn shrink-0 px-4 py-2.5 bg-[#DFB768] hover:bg-[#CFA655] text-[#3E362E] text-xs font-bold rounded-xl shadow-2xs">
+              安裝 App
             </button>
           </div>
         </div>
@@ -756,7 +805,7 @@
           <div class="font-bold text-[#3E362E] flex items-center gap-1.5">
             <span>📌</span>溫蒂的帳務與結帳週期備忘
           </div>
-          <p>• <strong>主要記帳週期（收支 / 現金 / 其他卡）</strong>：每月 <span class="font-mono font-bold text-[#3E362E]">5 日</span> 起算至隔月 <span class="font-mono font-bold text-[#3E362E]">4 日</span>。</p>
+          <p>• <strong>主要記帳週期（收支 / 現金 / 薪資扣除 / 其他卡）</strong>：每月 <span class="font-mono font-bold text-[#3E362E]">5 日</span> 起算至隔月 <span class="font-mono font-bold text-[#3E362E]">4 日</span>。</p>
           <p>• <strong>玉山卡</strong>：每月 <span class="font-mono font-bold text-[#3E362E]">28 日</span> 起算至隔月 <span class="font-mono font-bold text-[#3E362E]">27 日</span> 結帳。</p>
           <p>• <strong>台新卡</strong>：每月 <span class="font-mono font-bold text-[#3E362E]">8 日</span> 起算至隔月 <span class="font-mono font-bold text-[#3E362E]">7 日</span> 結帳。</p>
         </div>
@@ -776,7 +825,7 @@
       </button>
 
       <button onclick="switchTab('overview')" id="nav-overview" class="tab-nav-btn flex flex-col items-center justify-center py-2 px-1 rounded-2xl text-[#8C7D70] hover:bg-[#FAF6F0] font-medium transition">
-        <span class="text-lg leading-none mb-1">💳</span>
+        <span class="text-lg leading-none mb-1">📊</span>
         <span class="text-[11px]">帳單總覽</span>
       </button>
 
@@ -812,7 +861,6 @@
       <form id="editRecordForm" onsubmit="saveEditedRecord(event)" class="space-y-3.5">
         <input type="hidden" id="editIdInput">
 
-        <!-- 編輯視窗中的 支出 / 收入 切換 -->
         <div class="grid grid-cols-2 gap-2 p-1 bg-[#F5EFE6] rounded-xl border border-[#E6DDD0]">
           <button type="button" id="editTypeExpenseBtn" onclick="setEditEntryType('expense')" class="py-1.5 rounded-lg text-xs font-bold bg-[#3E362E] text-[#FFFDF9] transition">💸 支出</button>
           <button type="button" id="editTypeIncomeBtn" onclick="setEditEntryType('income')" class="py-1.5 rounded-lg text-xs font-bold text-[#8C7D70] transition">💰 收入</button>
@@ -835,10 +883,9 @@
         </div>
 
         <div>
-          <label class="block text-xs font-bold text-[#8C7D70] mb-1.5" id="editPaymentLabel">支付/入帳方式</label>
-          <div class="grid grid-cols-2 sm:grid-cols-4 gap-1.5" id="editPaymentPills"></div>
+          <label class="block text-xs font-bold text-[#8C7D70] mb-1.5">支付/入帳方式</label>
+          <div class="grid grid-cols-3 sm:grid-cols-5 gap-1.5" id="editPaymentPills"></div>
 
-          <!-- 編輯視窗中的跨結帳日順延切換 -->
           <div id="editDeferCycleWrapper" class="hidden mt-2">
             <label class="cursor-pointer flex items-center justify-between gap-2 px-3 py-2 rounded-xl bg-[#FBF7EE] border border-[#DFB768]/80 select-none">
               <div class="flex items-center gap-2">
@@ -849,7 +896,6 @@
             </label>
           </div>
 
-          <!-- 編輯視窗中的信用卡對帳 Check OK 切換 -->
           <div id="editReconcileWrapper" class="hidden mt-2">
             <label class="cursor-pointer flex items-center justify-between gap-2 px-3 py-2 rounded-xl bg-[#F3F6F2] border border-[#8FA88B]/80 select-none">
               <div class="flex items-center gap-2">
@@ -861,6 +907,14 @@
           </div>
         </div>
 
+        <!-- 所屬歸檔帳本微調 / 解除歸檔 -->
+        <div>
+          <label class="block text-xs font-bold text-[#8C7D70] mb-1">📦 所屬歸檔帳本（可調整月份或解除歸檔）</label>
+          <select id="editSettledBookSelect"
+            class="w-full px-3 py-2 bg-[#FAF6F0] border border-[#E6DDD0] rounded-xl text-xs font-bold text-[#3E362E] focus:outline-none focus:ring-2 focus:ring-[#C8A98E]">
+          </select>
+        </div>
+
         <div>
           <label class="block text-xs font-bold text-[#8C7D70] mb-1">備註</label>
           <input type="text" id="editNoteInput" placeholder="輸入備註..." class="w-full px-3 py-2 bg-[#FAF6F0] border border-[#E6DDD0] rounded-xl text-xs text-[#3E362E]">
@@ -868,7 +922,7 @@
 
         <div class="flex justify-end gap-2 pt-2">
           <button type="button" onclick="closeEditModal()" class="px-4 py-2 rounded-xl text-xs font-bold text-[#8C7D70] hover:bg-[#F5EFE6]">取消</button>
-          <button type="submit" class="sticker-btn px-5 py-2 rounded-xl text-xs font-bold bg-[#3E362E] text-[#FFFDF9] shadow-xs">儲存修改</button>
+          <button type="submit" class="sticker-btn px-5 py-2 rounded-xl text-xs font-bold bg-[#3E362E] text-[#FFFDF9] shadow-2xs">儲存修改</button>
         </div>
       </form>
     </div>
@@ -886,209 +940,295 @@
       <p class="text-xs text-[#8C7D70] mt-1.5 leading-relaxed" id="modalDesc">請確認是否執行此操作。</p>
       <div class="mt-5 flex justify-end gap-2">
         <button onclick="closeConfirmModal()" class="px-4 py-2 rounded-xl text-xs font-bold text-[#8C7D70] hover:bg-[#F5EFE6] transition">先不要</button>
-        <button id="modalConfirmBtn" class="sticker-btn px-4 py-2 rounded-xl text-xs font-bold bg-[#D98A6C] hover:bg-[#C7795B] text-white shadow-xs transition">確定執行</button>
+        <button id="modalConfirmBtn" class="sticker-btn px-4 py-2 rounded-xl text-xs font-bold bg-[#D98A6C] hover:bg-[#C7795B] text-white shadow-2xs transition">確定執行</button>
       </div>
     </div>
   </div>
 
   <script>
     // ==========================================
-    // 1. 常數與溫蒂控制$$本專屬設定
+    // 1. 常數與溫蒂帳本專屬設定
     // ==========================================
-    const STORAGE_KEY = 'wendy_money_control_v2';
+    const STORAGE_KEY = 'wendy_ledger_records_v1';
+    const LEGACY_STORAGE_KEY = 'wendy_money_control_v2';
+    const QUICK_NOTES_STORAGE_KEY = 'wendy_ledger_quick_notes_v1';
+    const DEFAULT_QUICK_NOTES = ['早餐', '午餐', '晚餐', '日用品'];
 
-    // 支出分類設定
+    // 可愛日系黑貴賓大頭插畫（包子專屬）
+    const BAOZI_DOG_SVG = `
+      <svg viewBox="0 0 64 64" class="w-6 h-6 inline-block" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="包子">
+        <circle cx="15" cy="30" r="8" fill="#2A2421"/>
+        <circle cx="13" cy="37" r="6.5" fill="#2A2421"/>
+        <circle cx="49" cy="30" r="8" fill="#2A2421"/>
+        <circle cx="51" cy="37" r="6.5" fill="#2A2421"/>
+        <circle cx="24" cy="14" r="7" fill="#362F2B"/>
+        <circle cx="32" cy="12" r="8" fill="#362F2B"/>
+        <circle cx="40" cy="14" r="7" fill="#362F2B"/>
+        <circle cx="18" cy="19" r="6.5" fill="#362F2B"/>
+        <circle cx="46" cy="19" r="6.5" fill="#362F2B"/>
+        <ellipse cx="32" cy="33" rx="16.5" ry="15.5" fill="#362F2B"/>
+        <ellipse cx="32" cy="39" rx="9" ry="7" fill="#463D38"/>
+        <circle cx="25.5" cy="30.5" r="2.7" fill="#181412"/>
+        <circle cx="24.6" cy="29.6" r="1" fill="#FFFDF9"/>
+        <circle cx="38.5" cy="30.5" r="2.7" fill="#181412"/>
+        <circle cx="37.6" cy="29.6" r="1" fill="#FFFDF9"/>
+        <ellipse cx="21" cy="35.5" rx="2.5" ry="1.5" fill="#E89384" opacity="0.75"/>
+        <ellipse cx="43" cy="35.5" rx="2.5" ry="1.5" fill="#E89384" opacity="0.75"/>
+        <ellipse cx="32" cy="36.5" rx="3" ry="2.1" fill="#181412"/>
+        <path d="M29 40.5 Q32 43 35 40.5" stroke="#181412" stroke-width="1.8" stroke-linecap="round"/>
+        <path d="M30.5 41.8 Q32 45 33.5 41.8 Z" fill="#E88378"/>
+      </svg>
+    `;
+
+    // 12 項支出分類
     const EXPENSE_CATEGORIES = [
-      { id: '伙食', label: '伙食', emoji: '🍱', barColor: 'bg-[#D98A6C]', stickerBg: 'bg-[#FAF1ED] text-[#9E5338] border-[#EBD5CC]', activeBg: 'bg-[#D98A6C] text-white border-[#D98A6C]' },
-      { id: '交通', label: '交通', emoji: '🚃', barColor: 'bg-[#829BB0]', stickerBg: 'bg-[#F2F5F8] text-[#526B80] border-[#D6E0E8]', activeBg: 'bg-[#829BB0] text-white border-[#829BB0]' },
-      { id: '娛樂', label: '娛樂', emoji: '🎡', barColor: 'bg-[#B39EB5]', stickerBg: 'bg-[#F6F2F7] text-[#6D5870] border-[#E2D6E4]', activeBg: 'bg-[#9E86A1] text-white border-[#9E86A1]' },
-      { id: '購物', label: '購物', emoji: '🛍️', barColor: 'bg-[#C8A98E]', stickerBg: 'bg-[#F8F3EE] text-[#85664B] border-[#E6D7C8]', activeBg: 'bg-[#C8A98E] text-white border-[#C8A98E]' },
-      { id: '運動', label: '運動', emoji: '🏃', barColor: 'bg-[#7BA69E]', stickerBg: 'bg-[#F1F7F6] text-[#3F6B63] border-[#CFE0DD]', activeBg: 'bg-[#69948C] text-white border-[#69948C]' },
-      { id: '保險', label: '保險', emoji: '🛡️', barColor: 'bg-[#8FA88B]', stickerBg: 'bg-[#F3F6F2] text-[#4A6147] border-[#D4DFD1]', activeBg: 'bg-[#8FA88B] text-white border-[#8FA88B]' },
-      { id: '醫療', label: '醫療', emoji: '🏥', barColor: 'bg-[#D68C8C]', stickerBg: 'bg-[#FAF2F2] text-[#964E4E] border-[#EAD4D4]', activeBg: 'bg-[#D68C8C] text-white border-[#D68C8C]' },
-      { id: '包子', label: '包子', emoji: '🐶', barColor: 'bg-[#DFB768]', stickerBg: 'bg-[#FBF7EE] text-[#8A6B2E] border-[#EBE0C9]', activeBg: 'bg-[#DFB768] text-[#3E362E] border-[#DFB768]' },
-      { id: '出國', label: '出國', emoji: '✈️', barColor: 'bg-[#7EA2C4]', stickerBg: 'bg-[#F0F5FA] text-[#456787] border-[#D0DFEE]', activeBg: 'bg-[#6A8FB3] text-white border-[#6A8FB3]' },
-      { id: '儲蓄', label: '儲蓄', emoji: '🐷', barColor: 'bg-[#E3A6A1]', stickerBg: 'bg-[#FDF4F3] text-[#9C524C] border-[#F0D5D2]', activeBg: 'bg-[#D9918B] text-white border-[#D9918B]' },
-      { id: '家用', label: '家用', emoji: '🏠', barColor: 'bg-[#B59B7E]', stickerBg: 'bg-[#F7F3EE] text-[#755D43] border-[#E3D8CA]', activeBg: 'bg-[#A1876A] text-white border-[#A1876A]' },
-      { id: '其他', label: '其他', emoji: '✨', barColor: 'bg-[#9E958C]', stickerBg: 'bg-[#F5EFE6] text-[#6E645B] border-[#E6DDD0]', activeBg: 'bg-[#8C7D70] text-white border-[#8C7D70]' }
-    ];
-    // 收入分類設定：薪資、保險、信用卡回饋金、其他收入
-    const INCOME_CATEGORIES = [
-      { id: '薪資', label: '薪資', emoji: '💼', barColor: 'bg-[#8FA88B]', stickerBg: 'bg-[#F3F6F2] text-[#4A6147] border-[#D4DFD1]', activeBg: 'bg-[#3B7A57] text-white border-[#3B7A57]' },
-      { id: '保險', label: '保險', emoji: '🛡️', barColor: 'bg-[#829BB0]', stickerBg: 'bg-[#F2F5F8] text-[#526B80] border-[#D6E0E8]', activeBg: 'bg-[#526B80] text-white border-[#526B80]' },
-      { id: '信用卡回饋金', label: '回饋金', emoji: '🎁', barColor: 'bg-[#DFB768]', stickerBg: 'bg-[#FBF7EE] text-[#8A6B2E] border-[#EBE0C9]', activeBg: 'bg-[#DFB768] text-[#3E362E] border-[#DFB768]' },
-      { id: '其他收入', label: '其他收入', emoji: '✨', barColor: 'bg-[#B39EB5]', stickerBg: 'bg-[#F6F2F7] text-[#6D5870] border-[#E2D6E4]', activeBg: 'bg-[#9E86A1] text-white border-[#9E86A1]' }
+      { id: '伙食', label: '伙食', emoji: '🍱', stickerBg: 'bg-[#FAF1ED] text-[#9E5338] border-[#EBD5CC]', activeBg: 'bg-[#D98A6C] text-white border-[#D98A6C] shadow-xs', barColor: 'bg-[#D98A6C]' },
+      { id: '交通', label: '交通', emoji: '🚃', stickerBg: 'bg-[#F2F5F8] text-[#526B80] border-[#D6E0E8]', activeBg: 'bg-[#829BB0] text-white border-[#829BB0] shadow-xs', barColor: 'bg-[#829BB0]' },
+      { id: '娛樂', label: '娛樂', emoji: '🎡', stickerBg: 'bg-[#FBF7EE] text-[#8A6B2E] border-[#EBE0C9]', activeBg: 'bg-[#DFB768] text-[#3E362E] border-[#DFB768] shadow-xs', barColor: 'bg-[#DFB768]' },
+      { id: '購物', label: '購物', emoji: '🛍️', stickerBg: 'bg-[#F6F1F5] text-[#7A5472] border-[#E3D5E0]', activeBg: 'bg-[#B48EAD] text-white border-[#B48EAD] shadow-xs', barColor: 'bg-[#B48EAD]' },
+      { id: '運動', label: '運動', emoji: '🏃', stickerBg: 'bg-[#F3F6F2] text-[#4A6147] border-[#D4DFD1]', activeBg: 'bg-[#8FA88B] text-white border-[#8FA88B] shadow-xs', barColor: 'bg-[#8FA88B]' },
+      { id: '保險', label: '保險', emoji: '🛡️', stickerBg: 'bg-[#F1F7F6] text-[#3F6B63] border-[#CFE0DD]', activeBg: 'bg-[#7BA69E] text-white border-[#7BA69E] shadow-xs', barColor: 'bg-[#7BA69E]' },
+      { id: '醫療', label: '醫療', emoji: '🏥', stickerBg: 'bg-[#FAF1ED] text-[#9E5338] border-[#EBD5CC]', activeBg: 'bg-[#C8795B] text-white border-[#C8795B] shadow-xs', barColor: 'bg-[#C8795B]' },
+      { id: '包子', label: '包子', emoji: '🐩', svgIcon: BAOZI_DOG_SVG, stickerBg: 'bg-[#F5EFE6] text-[#3E362E] border-[#D8CEC0]', activeBg: 'bg-[#3E362E] text-[#FFFDF9] border-[#3E362E] shadow-xs', barColor: 'bg-[#5E5247]' },
+      { id: '出國', label: '出國', emoji: '✈️', stickerBg: 'bg-[#F2F5F8] text-[#526B80] border-[#D6E0E8]', activeBg: 'bg-[#6E879C] text-white border-[#6E879C] shadow-xs', barColor: 'bg-[#6E879C]' },
+      { id: '儲蓄', label: '儲蓄', emoji: '🐷', stickerBg: 'bg-[#FBF7EE] text-[#8A6B2E] border-[#EBE0C9]', activeBg: 'bg-[#CFA655] text-[#3E362E] border-[#CFA655] shadow-xs', barColor: 'bg-[#CFA655]' },
+      { id: '家用', label: '家用', emoji: '🏠', stickerBg: 'bg-[#F5EFE6] text-[#6E5641] border-[#E2D6C5]', activeBg: 'bg-[#C8A98E] text-[#3E362E] border-[#C8A98E] shadow-xs', barColor: 'bg-[#C8A98E]' },
+      { id: '其他', label: '其他', emoji: '✨', stickerBg: 'bg-[#F5EFE6] text-[#6E645B] border-[#E6DDD0]', activeBg: 'bg-[#8C7D70] text-white border-[#8C7D70] shadow-xs', barColor: 'bg-[#8C7D70]' }
     ];
 
-    // 支出支付方式
+    // 6 項收入分類
+    const INCOME_CATEGORIES = [
+      { id: '薪資', label: '薪資', emoji: '💼', stickerBg: 'bg-[#F3F6F2] text-[#3B7A57] border-[#D4DFD1]', activeBg: 'bg-[#3B7A57] text-white border-[#3B7A57] shadow-xs', barColor: 'bg-[#3B7A57]' },
+      { id: '保險', label: '保險', emoji: '🛡️', stickerBg: 'bg-[#F1F7F6] text-[#3F6B63] border-[#CFE0DD]', activeBg: 'bg-[#7BA69E] text-white border-[#7BA69E] shadow-xs', barColor: 'bg-[#7BA69E]' },
+      { id: '回饋', label: '回饋', emoji: '🎁', stickerBg: 'bg-[#FBF7EE] text-[#8A6B2E] border-[#EBE0C9]', activeBg: 'bg-[#DFB768] text-[#3E362E] border-[#DFB768] shadow-xs', barColor: 'bg-[#DFB768]' },
+      { id: '投資', label: '投資', emoji: '📈', stickerBg: 'bg-[#F2F5F8] text-[#526B80] border-[#D6E0E8]', activeBg: 'bg-[#829BB0] text-white border-[#829BB0] shadow-xs', barColor: 'bg-[#829BB0]' },
+      { id: '兼職', label: '兼職', emoji: '🌱', stickerBg: 'bg-[#F3F6F2] text-[#4A6147] border-[#D4DFD1]', activeBg: 'bg-[#8FA88B] text-white border-[#8FA88B] shadow-xs', barColor: 'bg-[#8FA88B]' },
+      { id: '其他', label: '其他', emoji: '✨', stickerBg: 'bg-[#F5EFE6] text-[#6E645B] border-[#E6DDD0]', activeBg: 'bg-[#8C7D70] text-white border-[#8C7D70] shadow-xs', barColor: 'bg-[#8C7D70]' }
+    ];
+
+    // 支出支付方式：現金、薪資扣除、玉山卡、台新卡、其他
     const EXPENSE_PAYMENTS = [
       { id: '現金', label: '現金', emoji: '💵', activeClass: 'bg-[#DFB768] text-[#3E362E] border-[#DFB768] shadow-xs' },
-      { id: '玉山卡', label: '玉山卡', emoji: '💳', activeClass: 'bg-[#8FA88B] text-white border-[#8FA88B] shadow-xs' },
-      { id: '台新卡', label: '台新卡', emoji: '💳', activeClass: 'bg-[#D98A6C] text-white border-[#D98A6C] shadow-xs' },
-      { id: '其他卡', label: '其他卡', emoji: '💳', activeClass: 'bg-[#829BB0] text-white border-[#829BB0] shadow-xs' }
+      { id: '薪資扣除', label: '薪資扣除', emoji: '💼', activeClass: 'bg-[#7BA69E] text-white border-[#7BA69E] shadow-xs' },
+      { id: '玉山卡', label: '玉山卡', emoji: '🌿', activeClass: 'bg-[#8FA88B] text-white border-[#8FA88B] shadow-xs' },
+      { id: '台新卡', label: '台新卡', emoji: '🍑', activeClass: 'bg-[#D98A6C] text-white border-[#D98A6C] shadow-xs' },
+      { id: '其他卡', label: '其他', emoji: '💳', activeClass: 'bg-[#829BB0] text-white border-[#829BB0] shadow-xs' }
     ];
 
-    // 收入入帳方式
+    // 入帳方式：現金、玉山卡、台新卡、其他
     const INCOME_PAYMENTS = [
-      { id: '銀行帳戶', label: '銀行帳戶', emoji: '🏦', activeClass: 'bg-[#3B7A57] text-white border-[#3B7A57] shadow-xs' },
       { id: '現金', label: '現金', emoji: '💵', activeClass: 'bg-[#DFB768] text-[#3E362E] border-[#DFB768] shadow-xs' },
-      { id: '玉山卡', label: '玉山卡折抵', emoji: '💳', activeClass: 'bg-[#8FA88B] text-white border-[#8FA88B] shadow-xs' },
-      { id: '台新卡', label: '台新卡折抵', emoji: '💳', activeClass: 'bg-[#D98A6C] text-white border-[#D98A6C] shadow-xs' }
+      { id: '玉山卡', label: '玉山卡', emoji: '🌿', activeClass: 'bg-[#8FA88B] text-white border-[#8FA88B] shadow-xs' },
+      { id: '台新卡', label: '台新卡', emoji: '🍑', activeClass: 'bg-[#D98A6C] text-white border-[#D98A6C] shadow-xs' },
+      { id: '其他', label: '其他', emoji: '✨', activeClass: 'bg-[#829BB0] text-white border-[#829BB0] shadow-xs' }
     ];
-
-    // 各分類預設常用備註快速貼紙
-    const DEFAULT_QUICK_NOTES = {
-      '伙食': ['午餐便當', '晚餐', '手搖飲/咖啡', '早餐', '聚餐美食'],
-      '交通': ['捷運儲值', '加油', '停車費', '高鐵/台鐵', '計程車'],
-      '娛樂': ['電影', '展覽門票', '串流訂閱', '咖啡廳下午茶'],
-      '購物': ['日用品採買', '網購服飾', '美妝保養', '超商購物'],
-      '運動': ['健身房月費', '瑜珈/團課', '運動用品', '泳池門票'],
-      '保險': ['定期醫療險', '壽險保費', '寵物保險', '旅平險'],
-      '醫療': ['門診掛號', '牙科檢查', '藥局買藥', '健康檢查'],
-      '包子': ['潔牙骨/零食 🐩', '洗澡美容', '飼料主食', '保健品/預防針'],
-      '出國': ['機票費用', '海外住宿', 'eSIM網卡', '免稅店/伴手禮'],
-      '儲蓄': ['定期定額存錢', '緊急預備金', '旅遊基金存錢筒'],
-      '家用': ['水電瓦斯費', '網路/管理費', '家庭日用品採買'],
-      '其他': ['電信月租費', '紅包禮金'],
-      '薪資': ['本月薪資入帳', '績效獎金', '年終獎金'],
-      '信用卡回饋金': ['玉山刷卡現金回饋', '台新刷卡回饋金', '活動加碼回饋'],
-      '其他收入': ['發票中獎', '二手拍賣', '紅包/禮金', '股息/利息']
-    };
 
     let records = [];
     let currentTab = 'record';
-    let entryType = 'expense'; // 'expense' | 'income'
-    let selectedCategory = '伙食';
-    let selectedPayment = '現金';
-
+    let entryType = 'expense';
+    let selectedCategory = EXPENSE_CATEGORIES[0].id;
+    let selectedPayment = EXPENSE_PAYMENTS[0].id;
     let editEntryType = 'expense';
-    let editCategory = '伙食';
-    let editPayment = '現金';
-
-    let cycleOffset = 0; // 0 = 本期, -1 = 上期
-    let chartMode = 'expense'; // 'expense' | 'income'
+    let editCategory = EXPENSE_CATEGORIES[0].id;
+    let editPayment = EXPENSE_PAYMENTS[0].id;
+    let cycleOffset = 0;
+    let chartMode = 'expense';
+    let searchAllHistory = true;
+    let searchTargetBookKey = '';
+    let quickNotes = [...DEFAULT_QUICK_NOTES];
+    let isEditingQuickNotes = false;
 
     // ==========================================
-    // 2. 初始化與範例資料載入
+    // 2. 初始化與資料載入
     // ==========================================
+    let deferredInstallPrompt = null;
+
     document.addEventListener('DOMContentLoaded', () => {
-      generatePoodlePwaAppIcon();
-      initDateHeader();
+      initPWA();
       setTodayInput();
       renderFormPills();
       loadRecords();
+      loadQuickNotes();
       renderQuickNotePills();
       populateBookMonthSelect();
-      refreshAllViews();
+      renderTopAndMiniSummary();
+      renderOverview();
+      renderLedger();
     });
 
-    // 將日系貝雷帽黑貴賓繪製成 512x512 高解析度 PNG，並動態生成 PWA manifest.json 與 iOS/Android 桌面圖示
-    function generatePoodlePwaAppIcon() {
+    // ==========================================
+    // 2.5 PWA 動態 Manifest、App 圖示與離線 Service Worker
+    // ==========================================
+    function initPWA() {
+      // 1. 生成手帳專屬 SVG App 圖示 (192x192 & 512x512)
+      const iconSvg = `
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <rect width="512" height="512" rx="112" fill="#FAF6F0"/>
+          <rect x="116" y="76" width="296" height="360" rx="48" fill="#C8A98E"/>
+          <rect x="98" y="66" width="296" height="360" rx="48" fill="#FFFDF9" stroke="#3E362E" stroke-width="20"/>
+          <rect x="98" y="66" width="68" height="360" rx="24" fill="#8FA88B" stroke="#3E362E" stroke-width="20"/>
+          <rect x="204" y="128" width="146" height="84" rx="20" fill="#FBF7EE" stroke="#C8A98E" stroke-width="14"/>
+          <line x1="230" y1="170" x2="324" y2="170" stroke="#3E362E" stroke-width="16" stroke-linecap="round"/>
+          <line x1="204" y1="260" x2="346" y2="260" stroke="#D8CEC0" stroke-width="18" stroke-linecap="round"/>
+          <line x1="204" y1="314" x2="308" y2="314" stroke="#D8CEC0" stroke-width="18" stroke-linecap="round"/>
+          <circle cx="356" cy="356" r="60" fill="#DFB768" stroke="#3E362E" stroke-width="18"/>
+          <text x="356" y="382" text-anchor="middle" font-family="monospace" font-weight="bold" font-size="80" fill="#3E362E">$</text>
+        </svg>
+      `.trim();
+      const iconDataUrl = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(iconSvg);
+
+      const appleIconEl = document.getElementById('appleTouchIconLink');
+      if (appleIconEl) appleIconEl.href = iconDataUrl;
+
+      // 2. 動態建立 Web App Manifest
       try {
-        const size = 512;
-        const svgMarkup = `
-          <svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 180 180">
-            <rect width="180" height="180" rx="40" fill="#FAF6F0"/>
-            <!-- 奶油手帳圓底框 -->
-            <circle cx="90" cy="98" r="62" fill="#FFFDF9" stroke="#E6DDD0" stroke-width="4"/>
-            <!-- 蓬鬆貴賓垂耳 -->
-            <circle cx="44" cy="96" r="21" fill="#2E2824"/>
-            <circle cx="42" cy="113" r="17" fill="#2E2824"/>
-            <circle cx="136" cy="96" r="21" fill="#2E2824"/>
-            <circle cx="138" cy="113" r="17" fill="#2E2824"/>
-            <!-- 黑貴賓蓬鬆臉部與頭頂捲毛 -->
-            <circle cx="90" cy="98" r="41" fill="#332C28"/>
-            <circle cx="65" cy="68" r="17" fill="#332C28"/>
-            <circle cx="90" cy="61" r="19" fill="#332C28"/>
-            <circle cx="115" cy="68" r="17" fill="#332C28"/>
-            <!-- 奶茶色日系貝雷帽 -->
-            <ellipse cx="96" cy="47" rx="31" ry="14" transform="rotate(-12 96 47)" fill="#C8A98E" stroke="#3E362E" stroke-width="3"/>
-            <circle cx="103" cy="33" r="4.5" fill="#8FA88B"/>
-            <!-- 圓滾滾亮晶晶雙眼 -->
-            <circle cx="75" cy="94" r="6" fill="#FFFDF9"/>
-            <circle cx="76" cy="94" r="3.8" fill="#1A1614"/>
-            <circle cx="105" cy="94" r="6" fill="#FFFDF9"/>
-            <circle cx="104" cy="94" r="3.8" fill="#1A1614"/>
-            <!-- 嘴吻、黑鼻子與微笑 -->
-            <ellipse cx="90" cy="107" rx="14" ry="11" fill="#473E39"/>
-            <ellipse cx="90" cy="103" rx="6" ry="4.5" fill="#1A1614"/>
-            <path d="M84 111 Q90 116 96 111" stroke="#FFFDF9" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-            <!-- 陶土粉紅腮紅 -->
-            <circle cx="65" cy="104" r="5.5" fill="#D98A6C" opacity="0.65"/>
-            <circle cx="115" cy="104" r="5.5" fill="#D98A6C" opacity="0.65"/>
-            <!-- 右下角金幣 $$ 徽章 -->
-            <rect x="108" y="122" width="48" height="28" rx="11" fill="#DFB768" stroke="#FFFDF9" stroke-width="3.5"/>
-            <text x="132" y="141" text-anchor="middle" font-family="monospace" font-weight="bold" font-size="16" fill="#3E362E">$$</text>
-          </svg>
-        `;
+        const startUrl = window.location.protocol.startsWith('http')
+          ? window.location.href.split('#')[0]
+          : './wendy-ledger.html';
 
-        const svgBlob = new Blob([svgMarkup], { type: 'image/svg+xml;charset=utf-8' });
-        const url = URL.createObjectURL(svgBlob);
-        const img = new Image();
-        img.onload = function() {
-          const canvas = document.createElement('canvas');
-          canvas.width = size;
-          canvas.height = size;
-          const ctx = canvas.getContext('2d');
-          ctx.drawImage(img, 0, 0, size, size);
-          URL.revokeObjectURL(url);
-
-          const pngDataUrl = canvas.toDataURL('image/png');
-          const appleLink = document.getElementById('appleTouchIconLink');
-          const favLink = document.getElementById('faviconLink');
-          if (appleLink) appleLink.href = pngDataUrl;
-          if (favLink) favLink.href = pngDataUrl;
-
-          // 動態建立 PWA Web App Manifest（支援全螢幕 standalone 模式與桌面黑貴賓圖示）
-          const manifestObj = {
-            name: '溫蒂帳本',
-            short_name: '溫蒂帳本',
-            description: '溫蒂專屬日系手帳記帳與信用卡結算 PWA',
-            start_url: window.location.href.split('#')[0],
-            display: 'standalone',
-            background_color: '#FAF6F0',
-            theme_color: '#FAF6F0',
-            icons: [
-              {
-                src: pngDataUrl,
-                sizes: '512x512',
-                type: 'image/png',
-                purpose: 'any maskable'
-              }
-            ]
-          };
-          const manifestBlob = new Blob([JSON.stringify(manifestObj)], { type: 'application/manifest+json' });
-          const manifestUrl = URL.createObjectURL(manifestBlob);
-          const manifestLink = document.getElementById('pwaManifestLink');
-          if (manifestLink) manifestLink.href = manifestUrl;
+        const manifestObj = {
+          name: '溫蒂帳本｜日系手帳記帳',
+          short_name: '溫蒂帳本',
+          description: '日系手帳風格個人記帳本，支援雙卡結帳週期、民國年月份帳本與跨月搜尋。',
+          start_url: startUrl,
+          scope: './',
+          display: 'standalone',
+          orientation: 'portrait',
+          background_color: '#FAF6F0',
+          theme_color: '#FAF6F0',
+          icons: [
+            { src: iconDataUrl, sizes: '192x192', type: 'image/svg+xml', purpose: 'any maskable' },
+            { src: iconDataUrl, sizes: '512x512', type: 'image/svg+xml', purpose: 'any maskable' }
+          ]
         };
-        img.src = url;
+        const manifestBlob = new Blob([JSON.stringify(manifestObj)], { type: 'application/manifest+json' });
+        const manifestUrl = URL.createObjectURL(manifestBlob);
+        const manifestLink = document.getElementById('pwaManifestLink');
+        if (manifestLink) manifestLink.href = manifestUrl;
       } catch (e) {
-        console.warn('生成黑貴賓 PWA 圖示失敗:', e);
+        console.warn('Manifest 建立略過:', e);
       }
+
+      // 3. 註冊離線快取 Service Worker（需在 HTTPS 或 localhost 環境下生效）
+      if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
+        const swCode = `
+          const CACHE_NAME = 'wendy-ledger-pwa-v1';
+          const CORE_ASSETS = [
+            self.location.href,
+            'https://cdn.tailwindcss.com',
+            'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'
+          ];
+
+          self.addEventListener('install', (event) => {
+            event.waitUntil(
+              caches.open(CACHE_NAME).then((cache) => cache.addAll(CORE_ASSETS).catch(() => {}))
+            );
+            self.skipWaiting();
+          });
+
+          self.addEventListener('activate', (event) => {
+            event.waitUntil(
+              caches.keys().then((keys) =>
+                Promise.all(keys.filter((k) => k !== CACHE_NAME).map((k) => caches.delete(k)))
+              )
+            );
+            self.clients.claim();
+          });
+
+          self.addEventListener('fetch', (event) => {
+            if (event.request.method !== 'GET') return;
+            event.respondWith(
+              caches.match(event.request).then((cached) => {
+                const networkFetch = fetch(event.request)
+                  .then((response) => {
+                    if (response && response.status === 200) {
+                      const copy = response.clone();
+                      caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+                    }
+                    return response;
+                  })
+                  .catch(() => cached);
+                return cached || networkFetch;
+              })
+            );
+          });
+        `;
+        try {
+          const swBlob = new Blob([swCode], { type: 'application/javascript' });
+          const swUrl = URL.createObjectURL(swBlob);
+          navigator.serviceWorker.register(swUrl).catch(() => {});
+        } catch (e) {}
+      }
+
+      // 4. 監聽瀏覽器原生安裝事件與是否已處於獨立 App 模式
+      const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+      const statusEl = document.getElementById('pwaStatusText');
+      const installBtn = document.getElementById('pwaInstallBtn');
+
+      if (isStandalone && statusEl && installBtn) {
+        statusEl.textContent = '✅ 目前已以獨立 App 模式運行中';
+        installBtn.textContent = '已安裝';
+        installBtn.disabled = true;
+        installBtn.classList.add('opacity-50', 'cursor-not-allowed');
+      }
+
+      window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        deferredInstallPrompt = e;
+        if (statusEl) statusEl.textContent = '✨ 可一鍵安裝到手機主畫面或電腦桌面';
+      });
+
+      window.addEventListener('appinstalled', () => {
+        deferredInstallPrompt = null;
+        if (statusEl) statusEl.textContent = '✅ 已成功安裝為獨立應用程式！';
+        if (installBtn) {
+          installBtn.textContent = '已安裝';
+          installBtn.disabled = true;
+          installBtn.classList.add('opacity-50', 'cursor-not-allowed');
+        }
+        showStampToast('溫蒂帳本 App 安裝完成', 'income');
+      });
     }
 
-    function initDateHeader() {
-      const now = new Date();
-      const days = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
-      const y = now.getFullYear();
-      const m = String(now.getMonth() + 1).padStart(2, '0');
-      const d = String(now.getDate()).padStart(2, '0');
-      const headerEl = document.getElementById('headerDateDisplay');
-      if (headerEl) {
-        headerEl.textContent = `${y}.${m}.${d} ${days[now.getDay()]}`;
+    async function triggerPwaInstall() {
+      if (deferredInstallPrompt) {
+        deferredInstallPrompt.prompt();
+        const { outcome } = await deferredInstallPrompt.userChoice;
+        if (outcome === 'accepted') {
+          deferredInstallPrompt = null;
+        }
+        return;
       }
+
+      // 若為 iOS Safari 或尚未觸發原生安裝提示，顯示圖文引導視窗
+      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+      const guideText = isIOS
+        ? '請點擊 Safari 下方工具列的「分享」圖示（方框向上箭頭），往下滑選擇「加入主畫面」，就能像原生 App 一樣全螢幕開啟溫蒂帳本！'
+        : '請將此網頁部署到 HTTPS 空間（如 GitHub Pages / Netlify / Vercel）後，點擊瀏覽器右上角選單的「安裝應用程式 / 加入主畫面」即可建立獨立 App 圖示（注意：直接雙擊本機 file:// 檔案時，瀏覽器基於安全限制不會啟動離線安裝）。';
+
+      openConfirmModal('📲 如何將溫蒂帳本加入主畫面？', guideText, () => {});
     }
 
     function setTodayInput() {
-      const now = new Date();
-      const y = now.getFullYear();
-      const m = String(now.getMonth() + 1).padStart(2, '0');
-      const d = String(now.getDate()).padStart(2, '0');
+      setQuickDateOffset(0);
+    }
+
+    function setQuickDateOffset(daysOffset) {
       const dateEl = document.getElementById('dateInput');
-      if (dateEl) {
-        dateEl.value = `${y}-${m}-${d}`;
+      if (!dateEl) return;
+      const d = new Date();
+      d.setDate(d.getDate() + daysOffset);
+      const yyyy = d.getFullYear();
+      const mm = String(d.getMonth() + 1).padStart(2, '0');
+      const dd = String(d.getDate()).padStart(2, '0');
+      dateEl.value = `${yyyy}-${mm}-${dd}`;
+    }
+
+    function renderCategoryIcon(catObj, sizeClass = 'text-base') {
+      if (catObj && catObj.svgIcon) {
+        return `<span class="inline-flex items-center justify-center leading-none">${catObj.svgIcon}</span>`;
       }
+      return `<span class="${sizeClass} leading-none">${(catObj && catObj.emoji) || '✨'}</span>`;
     }
 
     function setEntryType(type) {
@@ -1097,34 +1237,31 @@
       const incBtn = document.getElementById('typeIncomeBtn');
       const titleEl = document.getElementById('formTitleText');
       const badgeEl = document.getElementById('formBadgeText');
-      const dateLabel = document.getElementById('dateFieldLabel');
-      const amtLabel = document.getElementById('amountFieldLabel');
-      const catLabel = document.getElementById('categoryFieldLabel');
-      const payLabel = document.getElementById('paymentFieldLabel');
-      const noteInput = document.getElementById('noteInput');
+      const dateLbl = document.getElementById('dateFieldLabel');
+      const amtLbl = document.getElementById('amountFieldLabel');
+      const catLbl = document.getElementById('categoryFieldLabel');
+      const payLbl = document.getElementById('paymentFieldLabel');
 
       if (type === 'expense') {
-        expBtn.className = 'py-2 rounded-xl text-xs font-bold bg-[#3E362E] text-[#FFFDF9] shadow-xs transition flex items-center justify-center gap-1.5';
+        expBtn.className = 'py-2 rounded-xl text-xs font-bold bg-[#3E362E] text-[#FFFDF9] shadow-2xs transition flex items-center justify-center gap-1.5';
         incBtn.className = 'py-2 rounded-xl text-xs font-bold text-[#8C7D70] hover:text-[#3E362E] transition flex items-center justify-center gap-1.5';
         titleEl.textContent = '寫下今天的開銷';
         badgeEl.textContent = 'EXPENSE';
-        dateLabel.textContent = '消費日期';
-        amtLabel.textContent = '消費金額 (TWD)';
-        catLabel.textContent = '支出分類貼紙';
-        payLabel.textContent = '支付方式';
-        noteInput.placeholder = '例如：午餐便當、包子的零食、捷運加值...';
+        dateLbl.textContent = '消費日期';
+        amtLbl.textContent = '消費金額 (TWD)';
+        catLbl.textContent = '支出分類貼紙';
+        payLbl.textContent = '支付方式';
         selectedCategory = EXPENSE_CATEGORIES[0].id;
         selectedPayment = EXPENSE_PAYMENTS[0].id;
       } else {
-        incBtn.className = 'py-2 rounded-xl text-xs font-bold bg-[#3B7A57] text-[#FFFDF9] shadow-xs transition flex items-center justify-center gap-1.5';
+        incBtn.className = 'py-2 rounded-xl text-xs font-bold bg-[#3B7A57] text-[#FFFDF9] shadow-2xs transition flex items-center justify-center gap-1.5';
         expBtn.className = 'py-2 rounded-xl text-xs font-bold text-[#8C7D70] hover:text-[#3E362E] transition flex items-center justify-center gap-1.5';
-        titleEl.textContent = '記錄一筆收入進帳';
+        titleEl.textContent = '記錄一筆新收入';
         badgeEl.textContent = 'INCOME';
-        dateLabel.textContent = '入帳日期';
-        amtLabel.textContent = '收入金額 (TWD)';
-        catLabel.textContent = '收入分類貼紙';
-        payLabel.textContent = '入帳帳戶/方式';
-        noteInput.placeholder = '例如：本月薪資、保險理賠、玉山信用卡回饋...';
+        dateLbl.textContent = '入帳日期';
+        amtLbl.textContent = '收入金額 (TWD)';
+        catLbl.textContent = '收入分類貼紙';
+        payLbl.textContent = '入帳方式';
         selectedCategory = INCOME_CATEGORIES[0].id;
         selectedPayment = INCOME_PAYMENTS[0].id;
       }
@@ -1134,104 +1271,46 @@
     function renderFormPills() {
       const catContainer = document.getElementById('categoryPills');
       const payContainer = document.getElementById('paymentPills');
+      if (!catContainer || !payContainer) return;
+
       const cats = entryType === 'expense' ? EXPENSE_CATEGORIES : INCOME_CATEGORIES;
       const pays = entryType === 'expense' ? EXPENSE_PAYMENTS : INCOME_PAYMENTS;
 
-      if (catContainer) {
-        catContainer.innerHTML = cats.map(c => {
-          const isActive = selectedCategory === c.id;
-          return `
-            <button type="button" onclick="selectCategory('${c.id}')"
-              class="sticker-btn min-w-0 py-2 px-1 rounded-2xl border text-[11px] sm:text-xs font-bold flex flex-col items-center justify-center gap-1 whitespace-nowrap ${
-                isActive ? c.activeBg + ' shadow-xs' : 'bg-[#FAF6F0] text-[#3E362E] border-[#E6DDD0] hover:bg-[#F5EFE6]'
-              }">
-              <span class="text-base leading-none">${c.emoji}</span>
-              <span class="truncate max-w-full">${c.label}</span>
-            </button>
-          `;
-        }).join('');
-      }
+      catContainer.className = entryType === 'expense'
+        ? 'grid grid-cols-4 gap-1.5 sm:gap-2'
+        : 'grid grid-cols-3 gap-1.5 sm:gap-2';
 
-      if (payContainer) {
-        payContainer.innerHTML = pays.map(p => {
-          const isActive = selectedPayment === p.id;
-          return `
-            <button type="button" onclick="selectPayment('${p.id}')"
-              class="sticker-btn min-w-0 py-2 px-2 rounded-2xl border text-xs font-bold flex items-center justify-center gap-1 whitespace-nowrap ${
-                isActive ? p.activeClass : 'bg-[#FAF6F0] text-[#3E362E] border-[#E6DDD0] hover:bg-[#F5EFE6]'
-              }">
-              <span class="shrink-0">${p.emoji}</span>
-              <span class="truncate">${p.label}</span>
-            </button>
-          `;
-        }).join('');
-      }
+      catContainer.innerHTML = cats.map(c => {
+        const isSelected = selectedCategory === c.id;
+        return `
+          <button type="button" onclick="selectCategory('${c.id}')"
+            class="sticker-btn py-2 px-1.5 rounded-2xl border text-xs font-bold flex flex-col items-center justify-center gap-1 ${
+              isSelected ? c.activeBg : c.stickerBg
+            }">
+            ${renderCategoryIcon(c, 'text-base')}
+            <span>${c.label}</span>
+          </button>
+        `;
+      }).join('');
 
-      if (payContainer) {
-        payContainer.innerHTML = pays.map(p => {
-          const isActive = selectedPayment === p.id;
-          return `
-            <button type="button" onclick="selectPayment('${p.id}')"
-              class="sticker-btn py-2 px-2.5 rounded-2xl border text-xs font-bold flex items-center justify-center gap-1.5 ${
-                isActive ? p.activeClass : 'bg-[#FAF6F0] text-[#3E362E] border-[#E6DDD0] hover:bg-[#F5EFE6]'
-              }">
-              <span>${p.emoji}</span>
-              <span>${p.label}</span>
-            </button>
-          `;
-        }).join('');
-      }
+      payContainer.className = entryType === 'expense'
+        ? 'grid grid-cols-3 sm:grid-cols-5 gap-1.5 sm:gap-2'
+        : 'grid grid-cols-4 gap-1.5 sm:gap-2';
+
+      payContainer.innerHTML = pays.map(p => {
+        const isSelected = selectedPayment === p.id;
+        return `
+          <button type="button" onclick="selectPayment('${p.id}')"
+            class="sticker-btn py-2 px-2 rounded-2xl border text-xs font-bold flex items-center justify-center gap-1 whitespace-nowrap ${
+              isSelected ? p.activeClass : 'bg-[#FAF6F0] text-[#3E362E] border-[#E6DDD0] hover:bg-[#F5EFE6]'
+            }">
+            <span>${p.emoji}</span>
+            <span>${p.label}</span>
+          </button>
+        `;
+      }).join('');
 
       updateDeferCycleVisibility();
-      renderQuickNoteChips();
-    }
-
-    function renderQuickNoteChips() {
-      const container = document.getElementById('quickNoteChips');
-      if (!container) return;
-
-      // 統計目前選定分類中，使用者歷史最常輸入的備註詞
-      const freqMap = {};
-      records.forEach(r => {
-        if (r.category === selectedCategory && r.note && r.note.trim()) {
-          const cleanNote = r.note.trim();
-          freqMap[cleanNote] = (freqMap[cleanNote] || 0) + 1;
-        }
-      });
-
-      const historyTop = Object.entries(freqMap)
-        .sort((a, b) => b[1] - a[1])
-        .map(entry => entry[0]);
-
-      const presets = DEFAULT_QUICK_NOTES[selectedCategory] || [];
-      const merged = [];
-      [...historyTop, ...presets].forEach(item => {
-        if (!merged.includes(item) && merged.length < 6) {
-          merged.push(item);
-        }
-      });
-
-      if (merged.length === 0) {
-        container.innerHTML = '';
-        return;
-      }
-
-      container.innerHTML = `
-        <span class="text-[10px] font-bold text-[#8C7D70] mr-0.5">🏷️ 快填：</span>
-        ${merged.map(text => `
-          <button type="button" onclick="applyQuickNote('${escapeHtml(text).replace(/'/g, "\\'")}')"
-            class="sticker-btn px-2.5 py-1 rounded-full bg-[#F5EFE6] hover:bg-[#EBE2D5] text-[#3E362E] border border-[#E6DDD0] text-[11px] font-medium transition">
-            ${escapeHtml(text)}
-          </button>
-        `).join('')}
-      `;
-    }
-
-    function applyQuickNote(text) {
-      const noteEl = document.getElementById('noteInput');
-      if (!noteEl) return;
-      noteEl.value = text;
-      noteEl.focus();
     }
 
     function selectCategory(id) {
@@ -1244,41 +1323,101 @@
       renderFormPills();
     }
 
-    // 渲染備註快填貼紙：固定（早餐、午餐、晚餐、日用品）＋ 自動統計最常輸入的歷史備註
+    function loadQuickNotes() {
+      try {
+        const raw = localStorage.getItem(QUICK_NOTES_STORAGE_KEY);
+        if (raw !== null) {
+          const parsed = JSON.parse(raw);
+          if (Array.isArray(parsed)) {
+            quickNotes = parsed;
+            return;
+          }
+        }
+      } catch (e) {}
+      quickNotes = [...DEFAULT_QUICK_NOTES];
+    }
+
+    function saveQuickNotes() {
+      try {
+        localStorage.setItem(QUICK_NOTES_STORAGE_KEY, JSON.stringify(quickNotes));
+      } catch (e) {}
+    }
+
+    // 單行備註快填小貼紙（純手改自訂版）
     function renderQuickNotePills() {
       const container = document.getElementById('quickNotePills');
       if (!container) return;
 
-      const fixedNotes = ['早餐', '午餐', '晚餐', '日用品'];
-      const freqMap = {};
-
-      records.forEach(r => {
-        const n = (r.note || '').trim();
-        if (n && !fixedNotes.includes(n)) {
-          freqMap[n] = (freqMap[n] || 0) + 1;
-        }
-      });
-
-      const learnedNotes = Object.entries(freqMap)
-        .sort((a, b) => b[1] - a[1])
-        .slice(0, 4)
-        .map(entry => entry[0]);
-
-      const fixedHtml = fixedNotes.map(txt => `
-        <button type="button" onclick="applyQuickNote('${escapeHtml(txt)}')"
-          class="sticker-btn px-2.5 py-1 rounded-xl bg-[#FAF6F0] hover:bg-[#F5EFE6] border border-[#E6DDD0] text-[11px] font-bold text-[#3E362E]">
+      const fixedHtml = quickNotes.map(txt => `
+        <button type="button" onclick="applyQuickNote('${escapeHtml(txt).replace(/'/g, "\\'")}')"
+          class="sticker-btn shrink-0 whitespace-nowrap px-2.5 py-1 rounded-xl bg-[#FAF6F0] hover:bg-[#F5EFE6] border border-[#E6DDD0] text-[11px] font-bold text-[#3E362E]">
           ${escapeHtml(txt)}
         </button>
       `).join('');
 
-      const learnedHtml = learnedNotes.map(txt => `
-        <button type="button" onclick="applyQuickNote('${escapeHtml(txt)}')"
-          class="sticker-btn px-2.5 py-1 rounded-xl bg-[#FBF7EE] hover:bg-[#F5EFE6] border border-[#DFB768]/70 text-[11px] font-bold text-[#8A6B2E] flex items-center gap-1">
-          <span>★</span><span>${escapeHtml(txt)}</span>
+      const editToggleBtn = `
+        <button type="button" onclick="toggleQuickNoteEditor()"
+          class="sticker-btn shrink-0 whitespace-nowrap px-2 py-1 rounded-xl border text-[10px] font-bold transition ${
+            isEditingQuickNotes
+              ? 'bg-[#3E362E] text-[#FFFDF9] border-[#3E362E]'
+              : 'bg-[#FBF7EE] text-[#8A6B2E] border-[#DFB768]/80 hover:bg-[#F5EFE6]'
+          }">
+          ${isEditingQuickNotes ? '完成' : '✏️ 手改'}
         </button>
-      `).join('');
+      `;
 
-      container.innerHTML = `<span class="text-[10px] font-bold text-[#8C7D70] mr-0.5">快填：</span>${fixedHtml}${learnedHtml}`;
+      container.innerHTML = `<span class="text-[10px] font-bold text-[#8C7D70] shrink-0 whitespace-nowrap">快填：</span>${fixedHtml}${editToggleBtn}`;
+      renderQuickNoteEditorTags();
+    }
+
+    function toggleQuickNoteEditor() {
+      isEditingQuickNotes = !isEditingQuickNotes;
+      const editor = document.getElementById('quickNoteEditor');
+      if (editor) {
+        if (isEditingQuickNotes) editor.classList.remove('hidden');
+        else editor.classList.add('hidden');
+      }
+      renderQuickNotePills();
+    }
+
+    function renderQuickNoteEditorTags() {
+      const tagsEl = document.getElementById('quickNoteEditorTags');
+      if (!tagsEl) return;
+      if (quickNotes.length === 0) {
+        tagsEl.innerHTML = `<span class="text-[11px] text-[#8C7D70]">目前沒有快填貼紙，在下方輸入新增吧！</span>`;
+        return;
+      }
+      tagsEl.innerHTML = quickNotes.map((txt, idx) => `
+        <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-xl bg-[#FFFDF9] border border-[#D8CEC0] text-xs font-bold text-[#3E362E]">
+          <span>${escapeHtml(txt)}</span>
+          <button type="button" onclick="removeCustomQuickNote(${idx})" class="text-[#8C7D70] hover:text-[#D98A6C] ml-0.5 font-black" title="移除">×</button>
+        </span>
+      `).join('');
+    }
+
+    function addCustomQuickNote() {
+      const input = document.getElementById('newQuickNoteInput');
+      if (!input) return;
+      const val = input.value.trim();
+      if (!val) return;
+      if (!quickNotes.includes(val)) {
+        quickNotes.push(val);
+        saveQuickNotes();
+      }
+      input.value = '';
+      renderQuickNotePills();
+    }
+
+    function removeCustomQuickNote(index) {
+      quickNotes.splice(index, 1);
+      saveQuickNotes();
+      renderQuickNotePills();
+    }
+
+    function resetDefaultQuickNotes() {
+      quickNotes = [...DEFAULT_QUICK_NOTES];
+      saveQuickNotes();
+      renderQuickNotePills();
     }
 
     function applyQuickNote(text) {
@@ -1292,7 +1431,7 @@
       const wrapper = document.getElementById('deferCycleWrapper');
       const checkbox = document.getElementById('deferCycleInput');
       if (!wrapper || !checkbox) return;
-      if (entryType === 'expense' && (selectedPayment === '玉山卡' || selectedPayment === '台新卡')) {
+      if (entryType === 'expense' && (selectedPayment === '玉山卡' || selectedPayment === '台新卡' || selectedPayment === '薪資扣除' || selectedPayment === '其他卡')) {
         wrapper.classList.remove('hidden');
       } else {
         wrapper.classList.add('hidden');
@@ -1304,19 +1443,12 @@
       document.getElementById('amountInput').value = '';
     }
 
-    function quickFillNote(text) {
-      const noteEl = document.getElementById('noteInput');
-      if (!noteEl) return;
-      noteEl.value = text;
-      noteEl.focus();
-    }
-
     function handleFormSubmit(e) {
       e.preventDefault();
       const dateVal = document.getElementById('dateInput').value;
       const amtVal = Number(document.getElementById('amountInput').value);
       const noteVal = document.getElementById('noteInput').value.trim();
-      const deferVal = entryType === 'expense' && (selectedPayment === '玉山卡' || selectedPayment === '台新卡')
+      const deferVal = entryType === 'expense' && (selectedPayment === '玉山卡' || selectedPayment === '台新卡' || selectedPayment === '薪資扣除' || selectedPayment === '其他卡')
         ? document.getElementById('deferCycleInput').checked
         : false;
 
@@ -1342,6 +1474,7 @@
       records.sort((a, b) => b.date.localeCompare(a.date));
       saveRecords();
 
+      // 保留目前選定的日期（方便連續補記同一天），僅清空金額、備註與順延勾選
       document.getElementById('amountInput').value = '';
       document.getElementById('noteInput').value = '';
       const deferEl = document.getElementById('deferCycleInput');
@@ -1398,32 +1531,20 @@
       return d;
     }
 
-    function generateSampleRecords() {
-      const now = new Date();
-      const y = now.getFullYear();
-      const m = now.getMonth();
-      const fmt = (year, month, day) => {
-        const dt = new Date(year, month, day);
-        return `${dt.getFullYear()}-${String(dt.getMonth() + 1).padStart(2, '0')}-${String(dt.getDate()).padStart(2, '0')}`;
-      };
-      return [
-        { id: 'sample_1', type: 'income', date: fmt(y, m, 10), category: '薪資', payment: '銀行帳戶', amount: 48000, note: '本月薪資入帳', deferNextCycle: false, reconciled: false, settledBook: '' },
-        { id: 'sample_2', type: 'income', date: fmt(y, m, 17), category: '信用卡回饋金', payment: '玉山卡', amount: 350, note: '玉山刷卡現金回饋', deferNextCycle: false, reconciled: false, settledBook: '' },
-        { id: 'sample_3', type: 'expense', date: fmt(y, m, 24), category: '包子', payment: '玉山卡', amount: 890, note: '包子的美容與潔牙骨 🐩', deferNextCycle: false, reconciled: false, settledBook: '' },
-        { id: 'sample_4', type: 'expense', date: fmt(y, m, 25), category: '伙食', payment: '現金', amount: 145, note: '日系手作便當與熱焙茶', deferNextCycle: false, reconciled: false, settledBook: '' },
-        { id: 'sample_5', type: 'expense', date: fmt(y, m, 22), category: '購物', payment: '台新卡', amount: 1680, note: '秋冬針織外套', deferNextCycle: false, reconciled: false, settledBook: '' },
-        { id: 'sample_6', type: 'expense', date: fmt(y, m, 20), category: '交通', payment: '其他卡', amount: 1200, note: 'TPASS 通勤月票', deferNextCycle: false, reconciled: false, settledBook: '' }
-      ];
-    }
-
     function loadRecords() {
       try {
         const raw = localStorage.getItem(STORAGE_KEY);
-        if (raw === null) {
-          records = [];
+        if (raw !== null) {
+          records = JSON.parse(raw) || [];
+          return;
+        }
+        const legacyRaw = localStorage.getItem(LEGACY_STORAGE_KEY);
+        if (legacyRaw !== null) {
+          records = JSON.parse(legacyRaw) || [];
           saveRecords();
         } else {
-          records = JSON.parse(raw) || [];
+          records = [];
+          saveRecords();
         }
       } catch (e) {
         records = [];
@@ -1444,11 +1565,23 @@
       return `${rocYear}年${m}月帳本`;
     }
 
+    function parseRocBookNameToKey(rocStr) {
+      if (!rocStr) return '';
+      const cleaned = String(rocStr).trim();
+      if (/^\d{4}-\d{2}$/.test(cleaned)) return cleaned;
+      const match = cleaned.match(/^(\d{2,3})年(\d{1,2})月/);
+      if (match) {
+        const adYear = Number(match[1]) + 1911;
+        const month = String(Number(match[2])).padStart(2, '0');
+        return `${adYear}-${month}`;
+      }
+      return '';
+    }
+
     function getDefaultBookKeyForDate(dateObj) {
       const y = dateObj.getFullYear();
       const m = dateObj.getMonth();
       const d = dateObj.getDate();
-      // 5日 ~ 隔月4日屬於起始月份的帳本
       const target = d >= 5 ? new Date(y, m, 1) : new Date(y, m - 1, 1);
       return formatBookKey(target.getFullYear(), target.getMonth());
     }
@@ -1465,13 +1598,13 @@
       const mainEnd = new Date(mainStart.getFullYear(), mainStart.getMonth() + 1, 4, 23, 59, 59);
       const mainTargetBook = formatBookKey(mainStart.getFullYear(), mainStart.getMonth());
 
-      // 2. 玉山卡結帳週期 (28日 ~ 隔月27日) -> 10/28~11/27 結帳在 11/27，歸入 115年11月帳本 (esunEnd 所在月份)
+      // 2. 玉山卡結帳週期 (28日 ~ 隔月27日)
       const baseEsunStart = d >= 28 ? new Date(y, m, 28) : new Date(y, m - 1, 28);
       const esunStart = new Date(baseEsunStart.getFullYear(), baseEsunStart.getMonth() + offset, 28, 0, 0, 0);
       const esunEnd = new Date(esunStart.getFullYear(), esunStart.getMonth() + 1, 27, 23, 59, 59);
       const esunTargetBook = formatBookKey(esunEnd.getFullYear(), esunEnd.getMonth());
 
-      // 3. 台新卡結帳週期 (8日 ~ 隔月7日) -> 11/08~12/07 歸入 115年11月帳本 (taishinStart 所在月份)
+      // 3. 台新卡結帳週期 (8日 ~ 隔月7日)
       const baseTaishinStart = d >= 8 ? new Date(y, m, 8) : new Date(y, m - 1, 8);
       const taishinStart = new Date(baseTaishinStart.getFullYear(), baseTaishinStart.getMonth() + offset, 8, 0, 0, 0);
       const taishinEnd = new Date(taishinStart.getFullYear(), taishinStart.getMonth() + 1, 7, 23, 59, 59);
@@ -1500,14 +1633,13 @@
       btn.disabled = false;
       btn.classList.remove('opacity-50', 'cursor-not-allowed');
 
-      // 檢查該區間內是否已全數結算歸檔
       const matching = getRecordsInChannelCycle(channelName, startDt, endDt);
       const allSettled = matching.length > 0 && matching.every(r => r.settledBook === targetBookKey);
 
       if (allSettled) {
         label.textContent = `已帶入${rocName}`;
       } else {
-        label.textContent = `結算→${rocName}`;
+        label.textContent = `結算帶入帳本`;
       }
     }
 
@@ -1515,7 +1647,7 @@
       return records.filter(r => {
         if ((r.type || 'expense') !== 'expense') return false;
         if (r.payment !== channelName) return false;
-        const dt = (channelName === '玉山卡' || channelName === '台新卡')
+        const dt = (channelName === '玉山卡' || channelName === '台新卡' || channelName === '薪資扣除' || channelName === '其他卡')
           ? getEffectiveCardDate(r)
           : parseLocalDate(r.date);
         return dt >= startDt && dt <= endDt;
@@ -1606,20 +1738,32 @@
       const netEl = document.getElementById('headerCycleNet');
       if (netEl) {
         netEl.textContent = `${net >= 0 ? '' : '-'}$${Math.abs(net).toLocaleString()}`;
-        netEl.className = `text-xs sm:text-sm font-mono font-bold ${net >= 0 ? 'text-[#3B7A57]' : 'text-[#C85A32]'}`;
+        netEl.className = `font-mono font-bold ${net >= 0 ? 'text-[#3B7A57]' : 'text-[#C85A32]'}`;
       }
+    }
+
+    function shiftCycleOffset(delta) {
+      setCycleOffset(cycleOffset + delta);
     }
 
     function setCycleOffset(offset) {
       cycleOffset = offset;
-      const prevBtn = document.getElementById('cyclePrevBtn');
-      const currBtn = document.getElementById('cycleCurrBtn');
-      if (offset === 0) {
-        currBtn.className = 'px-2.5 py-1 rounded-lg bg-[#FFFDF9] text-[#3E362E] shadow-xs border border-[#E6DDD0]/80 transition';
-        prevBtn.className = 'px-2.5 py-1 rounded-lg text-[#8C7D70] hover:text-[#3E362E] transition';
-      } else {
-        prevBtn.className = 'px-2.5 py-1 rounded-lg bg-[#FFFDF9] text-[#3E362E] shadow-xs border border-[#E6DDD0]/80 transition';
-        currBtn.className = 'px-2.5 py-1 rounded-lg text-[#8C7D70] hover:text-[#3E362E] transition';
+      const statusBtn = document.getElementById('cycleStatusBtn');
+      const chartTitleEl = document.getElementById('chartTitle');
+      let labelText = '本期';
+      if (offset < 0) labelText = `上${Math.abs(offset)}期`;
+      else if (offset > 0) labelText = `下${offset}期`;
+
+      if (statusBtn) {
+        statusBtn.textContent = labelText;
+        if (offset === 0) {
+          statusBtn.className = 'px-2.5 py-1 rounded-lg bg-[#FFFDF9] text-[#3E362E] shadow-2xs border border-[#E6DDD0]/80 transition whitespace-nowrap';
+        } else {
+          statusBtn.className = 'px-2.5 py-1 rounded-lg bg-[#DFB768] text-[#3E362E] shadow-2xs border border-[#C8A98E] transition whitespace-nowrap';
+        }
+      }
+      if (chartTitleEl) {
+        chartTitleEl.textContent = `${labelText}${chartMode === 'expense' ? '支出' : '收入'}結構比例`;
       }
       renderOverview();
     }
@@ -1629,14 +1773,18 @@
       const expBtn = document.getElementById('chartExpenseBtn');
       const incBtn = document.getElementById('chartIncomeBtn');
       const titleEl = document.getElementById('chartTitle');
+      let periodLabel = '本期';
+      if (cycleOffset < 0) periodLabel = `上${Math.abs(cycleOffset)}期`;
+      else if (cycleOffset > 0) periodLabel = `下${cycleOffset}期`;
+
       if (mode === 'expense') {
         expBtn.className = 'px-2 py-0.5 rounded-lg bg-[#FFFDF9] text-[#3E362E] shadow-2xs transition';
         incBtn.className = 'px-2 py-0.5 rounded-lg text-[#8C7D70] hover:text-[#3E362E] transition';
-        titleEl.textContent = cycleOffset === 0 ? '本期支出結構比例' : '上期支出結構比例';
+        titleEl.textContent = `${periodLabel}支出結構比例`;
       } else {
         incBtn.className = 'px-2 py-0.5 rounded-lg bg-[#FFFDF9] text-[#3E362E] shadow-2xs transition';
         expBtn.className = 'px-2 py-0.5 rounded-lg text-[#8C7D70] hover:text-[#3E362E] transition';
-        titleEl.textContent = cycleOffset === 0 ? '本期收入結構比例' : '上期收入結構比例';
+        titleEl.textContent = `${periodLabel}收入結構比例`;
       }
       renderOverview();
     }
@@ -1658,6 +1806,7 @@
       let taishinUnreconciled = 0;
       let cashTotal = 0;
       let otherCardTotal = 0;
+      let salaryDeductTotal = 0;
       const catTotals = {};
 
       records.forEach(r => {
@@ -1672,11 +1821,18 @@
           } else {
             cycleExpense += amt;
             if (r.payment === '現金') cashTotal += amt;
-            if (r.payment === '其他卡') otherCardTotal += amt;
           }
           if (rType === chartMode) {
             catTotals[r.category] = (catTotals[r.category] || 0) + amt;
           }
+        }
+
+        if (rType === 'expense' && r.payment === '其他卡' && cardDate >= cycles.mainStart && cardDate <= cycles.mainEnd) {
+          otherCardTotal += amt;
+        }
+
+        if (rType === 'expense' && r.payment === '薪資扣除' && cardDate >= cycles.mainStart && cardDate <= cycles.mainEnd) {
+          salaryDeductTotal += amt;
         }
 
         if (rType === 'expense' && r.payment === '玉山卡' && cardDate >= cycles.esunStart && cardDate <= cycles.esunEnd) {
@@ -1717,8 +1873,13 @@
 
       document.getElementById('statOtherCard').textContent = `$${otherCardTotal.toLocaleString()}`;
       document.getElementById('rangeOtherCard').textContent = mainRangeStr;
-      const otherCount = records.filter(r => (r.type || 'expense') === 'expense' && r.payment === '其他卡' && parseLocalDate(r.date) >= cycles.mainStart && parseLocalDate(r.date) <= cycles.mainEnd).length;
+      const otherCount = records.filter(r => (r.type || 'expense') === 'expense' && r.payment === '其他卡' && getEffectiveCardDate(r) >= cycles.mainStart && getEffectiveCardDate(r) <= cycles.mainEnd).length;
       updateSettleButtonUI('OtherCard', otherCount, cycles.mainTargetBook, cycles.mainStart, cycles.mainEnd, '其他卡');
+
+      document.getElementById('statSalaryDeduct').textContent = `$${salaryDeductTotal.toLocaleString()}`;
+      document.getElementById('rangeSalaryDeduct').textContent = mainRangeStr;
+      const salaryDeductCount = records.filter(r => (r.type || 'expense') === 'expense' && r.payment === '薪資扣除' && getEffectiveCardDate(r) >= cycles.mainStart && getEffectiveCardDate(r) <= cycles.mainEnd).length;
+      updateSettleButtonUI('SalaryDeduct', salaryDeductCount, cycles.mainTargetBook, cycles.mainStart, cycles.mainEnd, '薪資扣除');
 
       // 渲染結構比例條
       const chartContainer = document.getElementById('categoryChartContainer');
@@ -1741,7 +1902,7 @@
           <div onclick="jumpToLedgerByCategory('${c.id}')" class="cursor-pointer group">
             <div class="flex items-center justify-between text-xs mb-1">
               <span class="font-bold text-[#3E362E] flex items-center gap-1.5 group-hover:text-[#D98A6C] transition">
-                <span>${c.emoji}</span>
+                ${renderCategoryIcon(c, 'text-sm')}
                 <span>${c.label}</span>
               </span>
               <span class="font-mono font-bold text-[#3E362E]">
@@ -1757,40 +1918,107 @@
     }
 
     // ==========================================
-    // 5. 跳轉與明細帳本篩選渲染
+    // 5. 跳轉與明細帳本篩選渲染（含跨月/指定帳本關鍵字搜尋）
     // ==========================================
-    function populateBookMonthSelect(preferredKey) {
-      const selectEl = document.getElementById('ledgerBookMonthSelect');
-      if (!selectEl) return;
-
-      const currentSelected = preferredKey || selectEl.value;
+    function getAllAvailableBookKeys() {
       const now = new Date();
       const keySet = new Set();
 
-      // 預設提供前後共 6 個月選項，確保如 115年11月帳本、115年12月帳本 隨時可選
       for (let i = -3; i <= 2; i++) {
         const d = new Date(now.getFullYear(), now.getMonth() + i, 1);
         keySet.add(formatBookKey(d.getFullYear(), d.getMonth()));
       }
 
-      // 加入所有紀錄所屬或已結算歸檔的月份鍵值
       records.forEach(r => {
         if (r.settledBook) keySet.add(r.settledBook);
         keySet.add(getDefaultBookKeyForDate(parseLocalDate(r.date)));
       });
 
-      const sortedKeys = Array.from(keySet).sort((a, b) => b.localeCompare(a));
-      selectEl.innerHTML = sortedKeys.map(k => {
-        return `<option value="${k}">📘 ${formatRocBookName(k)}</option>`;
-      }).join('');
+      return Array.from(keySet).sort((a, b) => b.localeCompare(a));
+    }
 
-      const defaultKey = getDefaultBookKeyForDate(now);
-      if (currentSelected && sortedKeys.includes(currentSelected)) {
+    function populateBookMonthSelect(preferredKey) {
+      const selectEl = document.getElementById('ledgerBookMonthSelect');
+      if (!selectEl) return;
+
+      const currentSelected = preferredKey || selectEl.value;
+      const sortedKeys = getAllAvailableBookKeys();
+      const defaultKey = getDefaultBookKeyForDate(new Date());
+
+      selectEl.innerHTML = [
+        `<option value="ALL">📚 全部月份</option>`,
+        ...sortedKeys.map(k => `<option value="${k}">📘 ${formatRocBookName(k)}</option>`)
+      ].join('');
+
+      if (currentSelected && (currentSelected === 'ALL' || sortedKeys.includes(currentSelected))) {
         selectEl.value = currentSelected;
       } else if (sortedKeys.includes(defaultKey)) {
         selectEl.value = defaultKey;
       }
+
+      // 同步更新「搜尋指定帳本」下拉選單
+      const targetSelectEl = document.getElementById('searchTargetBookSelect');
+      if (targetSelectEl) {
+        const prevTarget = searchTargetBookKey || (selectEl.value !== 'ALL' ? selectEl.value : defaultKey);
+        targetSelectEl.innerHTML = sortedKeys
+          .map(k => `<option value="${k}">📘 ${formatRocBookName(k)}</option>`)
+          .join('');
+        if (prevTarget && sortedKeys.includes(prevTarget)) {
+          searchTargetBookKey = prevTarget;
+        } else {
+          searchTargetBookKey = sortedKeys[0] || defaultKey;
+        }
+        targetSelectEl.value = searchTargetBookKey;
+      }
+
+      updateSearchScopeUI();
       renderAnnualSummaryList(sortedKeys);
+    }
+
+    function setSearchBookMode(mode) {
+      if (mode === 'ALL') {
+        searchAllHistory = true;
+      } else {
+        searchAllHistory = false;
+        const targetSelectEl = document.getElementById('searchTargetBookSelect');
+        const bookSelectEl = document.getElementById('ledgerBookMonthSelect');
+        if (!searchTargetBookKey) {
+          searchTargetBookKey = (bookSelectEl && bookSelectEl.value !== 'ALL')
+            ? bookSelectEl.value
+            : (targetSelectEl && targetSelectEl.value) || getDefaultBookKeyForDate(new Date());
+        }
+        if (targetSelectEl && searchTargetBookKey) {
+          targetSelectEl.value = searchTargetBookKey;
+        }
+      }
+      updateSearchScopeUI();
+      renderLedger();
+    }
+
+    function handleSearchTargetBookChange() {
+      const targetSelectEl = document.getElementById('searchTargetBookSelect');
+      if (!targetSelectEl) return;
+      searchTargetBookKey = targetSelectEl.value;
+      searchAllHistory = false;
+      updateSearchScopeUI();
+      renderLedger();
+    }
+
+    function updateSearchScopeUI() {
+      const allBtn = document.getElementById('scopeAllBooksBtn');
+      const targetBtn = document.getElementById('scopeTargetBookBtn');
+      const targetSelectEl = document.getElementById('searchTargetBookSelect');
+      if (!allBtn || !targetBtn || !targetSelectEl) return;
+
+      if (searchAllHistory) {
+        allBtn.className = 'px-2.5 py-1 rounded-lg bg-[#3E362E] text-[#FFFDF9] shadow-2xs transition';
+        targetBtn.className = 'px-2.5 py-1 rounded-lg text-[#8C7D70] hover:text-[#3E362E] transition';
+        targetSelectEl.classList.add('hidden');
+      } else {
+        targetBtn.className = 'px-2.5 py-1 rounded-lg bg-[#3E362E] text-[#FFFDF9] shadow-2xs transition';
+        allBtn.className = 'px-2.5 py-1 rounded-lg text-[#8C7D70] hover:text-[#3E362E] transition';
+        targetSelectEl.classList.remove('hidden');
+      }
     }
 
     function updateUnreconciledPill(prefix, count) {
@@ -1809,12 +2037,7 @@
       switchTab('ledger');
       resetLedgerFilters();
       document.getElementById('ledgerPaymentFilter').value = paymentName;
-      document.getElementById('ledgerReconcileFilter').value = 'UNCHECKED';
-      if (paymentName === '玉山卡') {
-        document.getElementById('ledgerPeriodFilter').value = cycleOffset === 0 ? 'ESUN_CURR' : 'ESUN_PREV';
-      } else if (paymentName === '台新卡') {
-        document.getElementById('ledgerPeriodFilter').value = cycleOffset === 0 ? 'TAISHIN_CURR' : 'TAISHIN_PREV';
-      }
+      document.getElementById('ledgerPeriodFilter').value = 'UNSETTLED_ONLY';
       renderLedger();
     }
 
@@ -1905,27 +2128,58 @@
       showStampToast(rec.reconciled ? '已蓋章 Check OK' : '已取消核對', rec.reconciled ? 'income' : 'expense');
     }
 
+    function handleLedgerSearchInput() {
+      const val = (document.getElementById('ledgerSearchInput')?.value || '').trim();
+      const clearBtn = document.getElementById('clearSearchBtn');
+      if (clearBtn) {
+        if (val) clearBtn.classList.remove('hidden');
+        else clearBtn.classList.add('hidden');
+      }
+      renderLedger();
+    }
+
+    function clearLedgerSearch() {
+      const inputEl = document.getElementById('ledgerSearchInput');
+      if (inputEl) inputEl.value = '';
+      const clearBtn = document.getElementById('clearSearchBtn');
+      if (clearBtn) clearBtn.classList.add('hidden');
+      searchAllHistory = true;
+      updateSearchScopeUI();
+      renderLedger();
+    }
+
+    function highlightKeyword(text, keyword) {
+      const safeText = escapeHtml(text);
+      if (!keyword) return safeText;
+      const escapedKw = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const regex = new RegExp(`(${escapedKw})`, 'gi');
+      return safeText.replace(regex, '<mark class="bg-[#DFB768]/45 text-[#3E362E] px-0.5 rounded-xs font-black">$1</mark>');
+    }
+
     function renderLedger() {
       const bookKey = document.getElementById('ledgerBookMonthSelect').value;
       const periodFilter = document.getElementById('ledgerPeriodFilter').value;
       const typeFilter = document.getElementById('ledgerTypeFilter').value;
       const paymentFilter = document.getElementById('ledgerPaymentFilter').value;
       const categoryFilter = document.getElementById('ledgerCategoryFilter').value;
-      const reconcileFilter = document.getElementById('ledgerReconcileFilter').value;
-      const keyword = (document.getElementById('ledgerSearchInput').value || '').trim().toLowerCase();
+      const rawKeyword = (document.getElementById('ledgerSearchInput').value || '').trim();
+      const keyword = rawKeyword.toLowerCase();
+      const activeSearchBook = searchAllHistory
+        ? 'ALL'
+        : (searchTargetBookKey || (bookKey !== 'ALL' ? bookKey : getDefaultBookKeyForDate(new Date())));
+      const isGlobalKeywordSearch = Boolean(keyword && searchAllHistory && periodFilter === 'ALL');
 
       const currCycles = getBillingCycles(0);
       const prevCycles = getBillingCycles(-1);
 
-      // 先篩選出屬於目前選定民國年月份帳本的紀錄（已結算帶入該帳本，或未結算但落於該月5~4週期）
       const bookRecords = records.filter(r => {
+        if (bookKey === 'ALL') return true;
         if (r.settledBook) {
           return r.settledBook === bookKey;
         }
         return getDefaultBookKeyForDate(parseLocalDate(r.date)) === bookKey;
       });
 
-      // 計算該月份帳本的總收入、總支出與淨結餘
       let bookIncome = 0;
       let bookExpense = 0;
       bookRecords.forEach(r => {
@@ -1941,19 +2195,16 @@
       netEl.textContent = `${bookNet >= 0 ? '' : '-'}$${Math.abs(bookNet).toLocaleString()}`;
       netEl.className = `text-xs sm:text-sm font-mono font-bold ${bookNet >= 0 ? 'text-[#3B7A57]' : 'text-[#C85A32]'}`;
 
-      // 同步更新年度月帳總表的目前選中高亮狀態
       const selectEl = document.getElementById('ledgerBookMonthSelect');
       if (selectEl) {
-        const keys = Array.from(selectEl.options).map(o => o.value);
+        const keys = Array.from(selectEl.options).map(o => o.value).filter(v => v !== 'ALL');
         renderAnnualSummaryList(keys);
       }
 
-      // 套用進階細項篩選條件
       let filtered = records.filter(r => {
         const rType = r.type || 'expense';
         const cardDt = getEffectiveCardDate(r);
 
-        // 若選特定信用卡週期則依該週期過濾，否則依目前選擇的月份帳本過濾
         if (periodFilter === 'ESUN_CURR') {
           if (r.payment !== '玉山卡' || cardDt < currCycles.esunStart || cardDt > currCycles.esunEnd) return false;
         } else if (periodFilter === 'ESUN_PREV') {
@@ -1963,10 +2214,19 @@
         } else if (periodFilter === 'TAISHIN_PREV') {
           if (r.payment !== '台新卡' || cardDt < prevCycles.taishinStart || cardDt > prevCycles.taishinEnd) return false;
         } else {
-          const belongsToBook = r.settledBook
-            ? r.settledBook === bookKey
-            : getDefaultBookKeyForDate(parseLocalDate(r.date)) === bookKey;
-          if (!belongsToBook) return false;
+          if (keyword && periodFilter === 'ALL') {
+            if (!searchAllHistory && activeSearchBook !== 'ALL') {
+              const belongsToSearchBook = r.settledBook
+                ? r.settledBook === activeSearchBook
+                : getDefaultBookKeyForDate(parseLocalDate(r.date)) === activeSearchBook;
+              if (!belongsToSearchBook) return false;
+            }
+          } else if (bookKey !== 'ALL') {
+            const belongsToBook = r.settledBook
+              ? r.settledBook === bookKey
+              : getDefaultBookKeyForDate(parseLocalDate(r.date)) === bookKey;
+            if (!belongsToBook) return false;
+          }
           if (periodFilter === 'SETTLED_ONLY' && !r.settledBook) return false;
           if (periodFilter === 'UNSETTLED_ONLY' && r.settledBook) return false;
         }
@@ -1975,19 +2235,46 @@
         if (paymentFilter !== 'ALL' && r.payment !== paymentFilter) return false;
         if (categoryFilter !== 'ALL' && r.category !== categoryFilter) return false;
 
-        if (reconcileFilter === 'CHECKED' && !r.reconciled) return false;
-        if (reconcileFilter === 'UNCHECKED' && r.reconciled) return false;
-
         if (keyword) {
-          const hay = `${r.note || ''} ${r.category} ${r.payment}`.toLowerCase();
+          const bookLabel = formatRocBookName(r.settledBook || getDefaultBookKeyForDate(parseLocalDate(r.date)));
+          const dogAlias = r.category === '包子' ? '黑貴賓 狗 毛孩' : '';
+          const hay = `${r.note || ''} ${r.category} ${dogAlias} ${r.payment} ${r.date} ${bookLabel}`.toLowerCase();
           if (!hay.includes(keyword)) return false;
         }
         return true;
       });
 
+      const bannerEl = document.getElementById('searchResultBanner');
+      if (bannerEl) {
+        if (keyword) {
+          bannerEl.classList.remove('hidden');
+          const matchedExp = filtered.filter(r => (r.type || 'expense') === 'expense').reduce((s, r) => s + (Number(r.amount) || 0), 0);
+          const matchedInc = filtered.filter(r => (r.type || 'expense') === 'income').reduce((s, r) => s + (Number(r.amount) || 0), 0);
+
+          const effectiveScope = periodFilter === 'ALL' ? activeSearchBook : bookKey;
+          document.getElementById('searchScopeBadge').textContent = effectiveScope === 'ALL'
+            ? '📚 所有帳本'
+            : `🎯 指定帳本：${formatRocBookName(effectiveScope)}`;
+          document.getElementById('searchResultCountText').textContent = `共 ${filtered.length} 筆`;
+
+          const parts = [];
+          if (matchedExp > 0) parts.push(`支出 -$${matchedExp.toLocaleString()}`);
+          if (matchedInc > 0) parts.push(`收入 +$${matchedInc.toLocaleString()}`);
+          document.getElementById('searchResultAmountText').textContent = parts.length > 0 ? `（${parts.join(' / ')}）` : '';
+        } else {
+          bannerEl.classList.add('hidden');
+        }
+      }
+
       const listEl = document.getElementById('ledgerList');
       if (filtered.length === 0) {
-        listEl.innerHTML = `<div class="py-10 text-center text-xs text-[#8C7D70]">${formatRocBookName(bookKey)}目前沒有符合條件的明細唷 📒</div>`;
+        const bookLabelText = (keyword && periodFilter === 'ALL')
+          ? (activeSearchBook === 'ALL' ? '所有帳本' : formatRocBookName(activeSearchBook))
+          : (bookKey === 'ALL' ? '所有月份' : formatRocBookName(bookKey));
+        const emptyHint = keyword
+          ? `在「${bookLabelText}」中找不到符合「${escapeHtml(rawKeyword)}」的紀錄唷 🔎`
+          : `${bookLabelText}目前沒有符合條件的明細唷 📒`;
+        listEl.innerHTML = `<div class="py-10 text-center text-xs text-[#8C7D70]">${emptyHint}</div>`;
         return;
       }
 
@@ -1997,6 +2284,8 @@
         const isIncome = rType === 'income';
         const catObj = allCats.find(c => c.id === r.category) || { emoji: '✨', stickerBg: 'bg-[#F5EFE6] text-[#6E645B] border-[#E6DDD0]' };
         const isCard = !isIncome && (r.payment === '玉山卡' || r.payment === '台新卡' || r.payment === '其他卡');
+        const effectiveBookKey = r.settledBook || getDefaultBookKeyForDate(parseLocalDate(r.date));
+        const catDisplayText = r.category;
 
         const checkBadgeHtml = isCard ? `
           <button type="button" onclick="toggleReconcileRecord('${r.id}')"
@@ -2013,7 +2302,11 @@
           <span class="stamp-badge text-[9px] font-bold bg-[#F3F6F2] text-[#4A6147] border-[#8FA88B]">
             📦 ${escapeHtml(formatRocBookName(r.settledBook))}
           </span>
-        ` : '';
+        ` : ((isGlobalKeywordSearch || bookKey === 'ALL') ? `
+          <span class="stamp-badge text-[9px] font-bold bg-[#FBF7EE] text-[#8A6B2E] border-[#DFB768]">
+            📘 ${escapeHtml(formatRocBookName(effectiveBookKey))}
+          </span>
+        ` : '');
 
         const deferBadgeHtml = r.deferNextCycle ? `
           <span class="stamp-badge text-[9px] font-bold text-[#8A6B2E]">⏳ 順延下期</span>
@@ -2023,18 +2316,18 @@
           <div class="py-3.5 flex items-center justify-between gap-2.5">
             <div class="flex items-start gap-2.5 min-w-0">
               <div class="w-9 h-9 rounded-2xl border flex items-center justify-center text-base shrink-0 mt-0.5 ${catObj.stickerBg}">
-                ${catObj.emoji}
+                ${renderCategoryIcon(catObj, 'text-base')}
               </div>
               <div class="min-w-0">
                 <div class="flex flex-wrap items-center gap-1.5">
                   ${isIncome ? '<span class="stamp-badge text-[9px] font-bold bg-[#F3F6F2] text-[#3B7A57]">收入</span>' : ''}
-                  <span class="text-sm font-bold text-[#3E362E] truncate">${escapeHtml(r.note || r.category)}</span>
-                  <span class="stamp-badge text-[10px] font-bold text-[#8C7D70]">${escapeHtml(r.payment)}</span>
+                  <span class="text-sm font-bold text-[#3E362E] truncate">${highlightKeyword(r.note || catDisplayText, rawKeyword)}</span>
+                  <span class="stamp-badge text-[10px] font-bold text-[#8C7D70]">${highlightKeyword(r.payment, rawKeyword)}</span>
                   ${settledBadgeHtml}
                   ${deferBadgeHtml}
                 </div>
                 <div class="flex flex-wrap items-center gap-2 mt-1 text-[11px] font-mono text-[#8C7D70]">
-                  <span>${r.date.replace(/-/g, '.')} · ${escapeHtml(r.category)}</span>
+                  <span>${r.date.replace(/-/g, '.')} · ${highlightKeyword(catDisplayText, rawKeyword)}</span>
                   ${checkBadgeHtml}
                 </div>
               </div>
@@ -2062,8 +2355,11 @@
       document.getElementById('ledgerTypeFilter').value = 'ALL';
       document.getElementById('ledgerPaymentFilter').value = 'ALL';
       document.getElementById('ledgerCategoryFilter').value = 'ALL';
-      document.getElementById('ledgerReconcileFilter').value = 'ALL';
       document.getElementById('ledgerSearchInput').value = '';
+      const clearBtn = document.getElementById('clearSearchBtn');
+      if (clearBtn) clearBtn.classList.add('hidden');
+      searchAllHistory = true;
+      updateSearchScopeUI();
       renderLedger();
     }
 
@@ -2090,6 +2386,18 @@
 
       const recCb = document.getElementById('editReconcileInput');
       if (recCb) recCb.checked = Boolean(rec.reconciled);
+
+      const settledSel = document.getElementById('editSettledBookSelect');
+      if (settledSel) {
+        const keySet = new Set(getAllAvailableBookKeys());
+        if (rec.settledBook) keySet.add(rec.settledBook);
+        const keys = Array.from(keySet).sort((a, b) => b.localeCompare(a));
+        settledSel.innerHTML = [
+          `<option value="">⏳ 未歸檔（依日期自動歸入預設月份）</option>`,
+          ...keys.map(k => `<option value="${k}">📦 歸檔至 ${formatRocBookName(k)}</option>`)
+        ].join('');
+        settledSel.value = rec.settledBook || '';
+      }
 
       const modal = document.getElementById('editModal');
       modal.classList.remove('hidden');
@@ -2130,18 +2438,24 @@
       const cats = editEntryType === 'expense' ? EXPENSE_CATEGORIES : INCOME_CATEGORIES;
       const pays = editEntryType === 'expense' ? EXPENSE_PAYMENTS : INCOME_PAYMENTS;
 
+      catEl.className = editEntryType === 'expense'
+        ? 'grid grid-cols-4 gap-1.5'
+        : 'grid grid-cols-3 gap-1.5';
       catEl.innerHTML = cats.map(c => `
         <button type="button" onclick="editCategory='${c.id}';renderEditPills()"
           class="py-1.5 px-1 rounded-xl border text-[11px] font-bold flex flex-col items-center gap-0.5 ${
             editCategory === c.id ? c.activeBg : 'bg-[#FAF6F0] text-[#3E362E] border-[#E6DDD0]'
           }">
-          <span>${c.emoji}</span><span>${c.label}</span>
+          ${renderCategoryIcon(c, 'text-sm')}<span>${c.label}</span>
         </button>
       `).join('');
 
+      payEl.className = editEntryType === 'expense'
+        ? 'grid grid-cols-3 sm:grid-cols-5 gap-1.5'
+        : 'grid grid-cols-4 gap-1.5';
       payEl.innerHTML = pays.map(p => `
         <button type="button" onclick="editPayment='${p.id}';renderEditPills()"
-          class="py-1.5 px-2 rounded-xl border text-[11px] font-bold flex items-center justify-center gap-1 ${
+          class="py-1.5 px-2 rounded-xl border text-[11px] font-bold flex items-center justify-center gap-1 whitespace-nowrap ${
             editPayment === p.id ? p.activeClass : 'bg-[#FAF6F0] text-[#3E362E] border-[#E6DDD0]'
           }">
           <span>${p.emoji}</span><span>${p.label}</span>
@@ -2150,7 +2464,7 @@
 
       const deferWrap = document.getElementById('editDeferCycleWrapper');
       const recWrap = document.getElementById('editReconcileWrapper');
-      if (editEntryType === 'expense' && (editPayment === '玉山卡' || editPayment === '台新卡')) {
+      if (editEntryType === 'expense' && (editPayment === '玉山卡' || editPayment === '台新卡' || editPayment === '薪資扣除' || editPayment === '其他卡')) {
         deferWrap.classList.remove('hidden');
       } else {
         deferWrap.classList.add('hidden');
@@ -2174,12 +2488,16 @@
       rec.category = editCategory;
       rec.payment = editPayment;
       rec.note = document.getElementById('editNoteInput').value.trim();
-      rec.deferNextCycle = editEntryType === 'expense' && (editPayment === '玉山卡' || editPayment === '台新卡')
+      rec.deferNextCycle = editEntryType === 'expense' && (editPayment === '玉山卡' || editPayment === '台新卡' || editPayment === '薪資扣除' || editPayment === '其他卡')
         ? document.getElementById('editDeferCycleInput').checked
         : false;
       rec.reconciled = editEntryType === 'expense' && (editPayment === '玉山卡' || editPayment === '台新卡' || editPayment === '其他卡')
         ? document.getElementById('editReconcileInput').checked
         : false;
+      const settledSel = document.getElementById('editSettledBookSelect');
+      if (settledSel) {
+        rec.settledBook = settledSel.value || '';
+      }
 
       records.sort((a, b) => b.date.localeCompare(a.date));
       saveRecords();
@@ -2238,6 +2556,40 @@
       showStampToast('CSV 備份已匯出', 'income');
     }
 
+    function parseCsvLine(line) {
+      const result = [];
+      let current = '';
+      let inQuotes = false;
+      for (let i = 0; i < line.length; i++) {
+        const ch = line[i];
+        if (inQuotes) {
+          if (ch === '"' && line[i + 1] === '"') {
+            current += '"';
+            i++;
+          } else if (ch === '"') {
+            inQuotes = false;
+          } else {
+            current += ch;
+          }
+        } else {
+          if (ch === '"') {
+            inQuotes = true;
+          } else if (ch === ',') {
+            result.push(current.trim());
+            current = '';
+          } else {
+            current += ch;
+          }
+        }
+      }
+      result.push(current.trim());
+      return result;
+    }
+
+    function buildRecordSignature(r) {
+      return `${r.type || 'expense'}|${r.date}|${r.category}|${r.payment}|${Number(r.amount)}|${(r.note || '').trim()}|${r.settledBook || ''}`;
+    }
+
     function handleFileImport(event) {
       const file = event.target.files[0];
       if (!file) return;
@@ -2250,23 +2602,29 @@
             showToast('CSV 檔案內容為空', 'error');
             return;
           }
+
+          const existingSignatures = new Set(records.map(buildRecordSignature));
           let importedCount = 0;
+          let skippedDupCount = 0;
+
           for (let i = 1; i < lines.length; i++) {
-            const cols = lines[i].match(/(".*?"|[^",\s]+)(?=\s*,|\s*$)/g) || lines[i].split(',');
+            const cols = parseCsvLine(lines[i]);
             if (cols.length < 5) continue;
-            const clean = s => (s || '').replace(/^"|"$/g, '').replace(/""/g, '"').trim();
-            const typeStr = clean(cols[0]);
-            const dateStr = clean(cols[1]);
-            const catStr = clean(cols[2]);
-            const payStr = clean(cols[3]);
-            const amtNum = Number(clean(cols[4])) || 0;
-            const noteStr = clean(cols[5]);
-            const deferStr = clean(cols[6]);
-            const recStr = clean(cols[7]);
+
+            const typeStr = cols[0] || '';
+            const dateStr = cols[1] || '';
+            const catStr = cols[2] || '';
+            const payStr = cols[3] || '';
+            const amtNum = Number(cols[4]) || 0;
+            const noteStr = cols[5] || '';
+            const deferStr = cols[6] || '';
+            const recStr = cols[7] || '';
+            const settledBookRaw = cols[8] || '';
 
             if (!dateStr || amtNum <= 0) continue;
-            records.push({
-              id: 'imp_' + Date.now() + '_' + i,
+
+            const candidate = {
+              id: 'imp_' + Date.now() + '_' + i + '_' + Math.random().toString(36).slice(2, 5),
               type: typeStr === '收入' ? 'income' : 'expense',
               date: dateStr,
               category: catStr || '其他',
@@ -2275,34 +2633,37 @@
               note: noteStr,
               deferNextCycle: deferStr === '是',
               reconciled: recStr === '是',
-              settledBook: ''
-            });
+              settledBook: parseRocBookNameToKey(settledBookRaw)
+            };
+
+            const sig = buildRecordSignature(candidate);
+            if (existingSignatures.has(sig)) {
+              skippedDupCount++;
+              continue;
+            }
+
+            existingSignatures.add(sig);
+            records.push(candidate);
             importedCount++;
           }
+
           records.sort((a, b) => b.date.localeCompare(a.date));
           saveRecords();
           refreshAllViews();
-          showStampToast(`成功匯入 ${importedCount} 筆紀錄`, 'income');
+
+          if (importedCount === 0 && skippedDupCount > 0) {
+            showToast(`略過 ${skippedDupCount} 筆重複明細，沒有新增資料`, 'info');
+          } else if (skippedDupCount > 0) {
+            showStampToast(`匯入 ${importedCount} 筆（略過 ${skippedDupCount} 筆重複）`, 'income');
+          } else {
+            showStampToast(`成功匯入 ${importedCount} 筆紀錄`, 'income');
+          }
         } catch (err) {
           showToast('匯入失敗，請確認 CSV 格式', 'error');
         }
         event.target.value = '';
       };
       reader.readAsText(file, 'UTF-8');
-    }
-
-    function confirmLoadSampleData() {
-      openConfirmModal(
-        '載入溫蒂範例測試資料？',
-        '將會在目前帳本中加入 6 筆收支範例（含薪資、信用卡回饋金、包子與刷卡），方便測試結算功能。',
-        () => {
-          records = [...generateSampleRecords(), ...records];
-          records.sort((a, b) => b.date.localeCompare(a.date));
-          saveRecords();
-          refreshAllViews();
-          showStampToast('已載入範例資料', 'income');
-        }
-      );
     }
 
     function confirmClearAllData() {
